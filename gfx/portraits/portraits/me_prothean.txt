@@ -1,0 +1,23 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	me_prothean = {
+		entity = "humanoid_04_female_01_entity"
+		clothes_selector = "me_prothean_clothes_01"
+	# hair_selector = "no_texture"
+	  hair_selector = "general_no_hair"
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/me_prothean/prothean2.dds"
+		}
+	}
+}

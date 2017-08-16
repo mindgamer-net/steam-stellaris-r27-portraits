@@ -1,0 +1,10 @@
+objectTypes = {
+
+		pdxmesh = {
+		name = "portrait_prothean_01_mesh"
+		file = "gfx/models/portraits/r27/me_prothean/prothean_01_portrait.mesh"
+		animation = { id = "idle"	type = "reptilian_15_happy_animation" }
+		scale = 0.85
+	}
+
+}

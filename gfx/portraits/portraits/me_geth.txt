@@ -1,0 +1,101 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+portraits = {
+
+	# Geth
+
+	me_geth_portrait = {
+		entity = "portrait_geth_entity"
+		clothes_selector = "general_no_hair"
+		hair_selector = "general_no_hair"
+		greeting_sound = "arthropoid_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/me_geth/geth_black.dds"
+			"gfx/models/portraits/r27/me_geth/geth_grey.dds"
+			"gfx/models/portraits/r27/me_geth/geth_white.dds"
+			"gfx/models/portraits/r27/me_geth/geth_red.dds"
+			"gfx/models/portraits/r27/me_geth/geth_blue.dds"
+			"gfx/models/portraits/r27/me_geth/geth_dark_blue.dds"
+			"gfx/models/portraits/r27/me_geth/geth_2.dds"
+			"gfx/models/portraits/r27/me_geth/geth_3.dds"
+			"gfx/models/portraits/r27/me_geth/geth_4.dds"
+			"gfx/models/portraits/r27/me_geth/geth_5.dds"
+			"gfx/models/portraits/r27/me_geth/geth_6.dds"
+			"gfx/models/portraits/r27/me_geth/geth_7.dds"
+			"gfx/models/portraits/r27/me_geth/geth_8.dds"
+			"gfx/models/portraits/r27/me_geth/geth_9.dds"
+			"gfx/models/portraits/r27/me_geth/geth_10.dds"
+		}
+	}
+}
+
+#me_geth
+
+portrait_groups = {
+		me_geth = {
+		default = me_geth_portrait 			#portrait in bottom
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+
+			add = {
+				trigger = { ruler = { gender = female } }
+				portraits = { me_geth_portrait }
+			}
+			add = {
+				trigger = { ruler = { gender = male } }
+				portraits = { me_geth_portrait }
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = { me_geth_portrait }
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = { me_geth_portrait }
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = { gender = female }
+				portraits = { me_geth_portrait }
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = { me_geth_portrait }
+			}
+		}
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = { gender = male }
+				portraits = { me_geth_portrait }
+			}
+		  add = {
+				trigger = { gender = female }
+				portraits = { me_geth_portrait }
+			}
+		}
+	}
+}

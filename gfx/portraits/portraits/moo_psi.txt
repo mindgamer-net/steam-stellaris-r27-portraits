@@ -1,0 +1,28 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	moo_psi = {
+		entity = "moo_01_portrait_entity"
+		clothes_selector = "moo_psi_clothes_01"
+	# hair_selector = "no_texture"
+	  hair_selector = "general_no_hair"
+		greeting_sound = "molluscoid_01_greetings"
+		character_textures = {
+				"gfx/models/portraits/r27/moo_psi/moo_01_1.dds"
+				"gfx/models/portraits/r27/moo_psi/moo_01_2.dds"
+				"gfx/models/portraits/r27/moo_psi/moo_01_3.dds"
+				"gfx/models/portraits/r27/moo_psi/moo_01_5.dds"
+				"gfx/models/portraits/r27/moo_psi/moo_01_6.dds"
+				"gfx/models/portraits/r27/moo_psi/moo_01_7.dds"
+		}
+	}
+}

@@ -1,0 +1,47 @@
+# Number of entries controlls amount to choose from in designer  I.E.   "mol1" "mol2" "mol3" "mol4"
+# graphical_culture is connected to the looks used for ships and cities, see "common/graphical_culture/"
+# Portraits here are one you can choose from in the character creater. For prescripted races they are grabbed straight from the .gfx file.
+# can specify playable=no to disable people from picking specified class.
+# can specify randomized=no to filter specified class from randomization.
+#	playable = trigger, default is yes, to specify if portraits are playable
+
+R27 = {
+
+	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+		"b5_narn"
+		"moo_psi"
+		"me_geth"
+		"me_quarian"
+		"me_prothean"
+		"me_turian"
+		"oth_protoss"
+		"oth_holofrixit"
+		"oth_horrorworm"
+		"oth_zeriphen"
+		"oth_cat"
+		"oth_synth_cat"
+		"hum_thepallid"
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"b5_narn"
+		"moo_psi"
+		"me_geth"
+		"me_quarian"
+		"me_prothean"
+		"me_turian"
+		"oth_protoss"
+		"oth_holofrixit"
+		"oth_horrorworm"
+		"oth_zeriphen"
+		"oth_cat"
+		"oth_synth_cat"
+		"hum_thepallid"
+	}
+
+	randomized = no
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+}

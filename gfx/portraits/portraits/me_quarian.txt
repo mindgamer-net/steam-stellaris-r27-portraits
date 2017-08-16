@@ -1,0 +1,145 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	me_quarian = {
+		entity = "portrait_quarian_female_01_entity"
+		clothes_selector = "quarian_female_clothes_01"
+		hair_selector = "quarian_female_hair_01"
+		greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/r27/me_quarian/quarian_female_body_01.dds"
+		}
+	}
+#	quarian_male_01 = {
+#		entity = "portrait_quarian_male_01_entity"
+#		clothes_selector = "quarian_male_clothes_01"
+#		hair_selector = "quarian_male_hair_01"
+#		greeting_sound = "human_male_greetings_03"
+#		character_textures = {
+#			"gfx/models/portraits/r27/me_quarian/quarian_male_body_01.dds"
+#		}
+#	}
+#
+#	quarian_male_02 = {
+#		entity = "portrait_quarian_male_01_entity"
+#		clothes_selector = "quarian_male_clothes_02"
+#		hair_selector = "quarian_male_hair_02"
+#		greeting_sound = "human_male_greetings_03"
+#		character_textures = {
+#			"gfx/models/portraits/r27/me_quarian/quarian_male_body_01.dds"
+#		}
+#	}
+#
+#	quarian_male_03 = {
+#		entity = "portrait_quarian_male_01_entity"
+#		clothes_selector = "quarian_male_clothes_03"
+#		hair_selector = "quarian_male_hair_03"
+#		greeting_sound = "human_male_greetings_03"
+#		character_textures = {
+#			"gfx/models/portraits/r27/me_quarian/quarian_male_body_01.dds"
+#		}
+#	}
+}
+
+#portrait_groups = {
+#	me_quarian = {
+#		default = quarian_female_01
+#		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+#			#add = {
+#				trigger = {
+#					ruler = { gender = male }
+#				}
+#				portraits = {
+#					quarian_male_01
+#					quarian_male_02
+#					quarian_male_03
+#				}
+#			}
+#			add = {
+#				trigger = {
+#					ruler = { gender = female }
+#				}
+#				portraits = {
+#					quarian_female_01
+#				}
+#			}
+#		}
+#
+#		#species scope
+#		species = { #generic portrait for a species
+#			add = {
+#				portraits = {
+#					quarian_female_01
+#					quarian_male_01
+#					quarian_male_02
+#					quarian_male_03
+#				}
+#			}
+#		}
+#
+#		#pop scope
+#		pop = { #for a specific pop
+#			add = {
+#				portraits = {
+#					quarian_female_01
+#					quarian_male_01
+#					quarian_male_02
+#					quarian_male_03
+#				}
+#			}
+#		}
+#
+#		#leader scope
+#		leader = { #scientists, generals, admirals, governor
+#			add = {
+#				trigger = {
+#					gender = female
+#				}
+#				portraits = {
+#					quarian_female_01
+#				}
+#			}
+#			add = {
+#				trigger = {
+#					gender = male
+#				}
+#				portraits = {
+#					quarian_male_01
+#					quarian_male_02
+#					quarian_male_03
+#				}
+#			}
+#		}
+#
+#
+#		#leader scope
+#		ruler = {
+#			add = {
+#				trigger = {
+#					gender = female
+#				}
+#				portraits = {
+#					quarian_female_01
+#				}
+#			}
+#			add = {
+#				trigger = {
+#					gender = male
+#				}
+#				portraits = {
+#					quarian_male_01
+#					quarian_male_02
+#					quarian_male_03
+#				}
+#			}
+#		}
+#	}
+#}

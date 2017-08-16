@@ -1,0 +1,122 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	zeriphen_female_01 = {
+		entity = "portrait_zeriphen_female_01_entity"
+		clothes_selector = "no_texture"
+		hair_selector = "zeriphen_female_a_01_hair"
+		greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_zeriphen/zeriphen_female_a_body_01.dds"
+			"gfx/models/portraits/r27/oth_zeriphen/zeriphen_female_a_body_02.dds"
+			"gfx/models/portraits/r27/oth_zeriphen/zeriphen_female_a_body_03.dds"
+		}
+	}
+
+	zeriphen_male_01 = {
+		entity = "portrait_zeriphen_male_01_entity"
+		clothes_selector = "no_texture"
+		hair_selector = "zeriphen_male_a_01_hair"
+		greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_zeriphen/zeriphen_male_a_body_01.dds"
+			"gfx/models/portraits/r27/oth_zeriphen/zeriphen_male_a_body_02.dds"
+			"gfx/models/portraits/r27/oth_zeriphen/zeriphen_male_a_body_03.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	oth_zeriphen = {
+		default = zeriphen_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeriphen_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeriphen_female_01
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeriphen_male_01
+					zeriphen_female_01
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeriphen_male_01
+					zeriphen_female_01
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeriphen_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeriphen_male_01
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeriphen_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeriphen_male_01
+				}
+			}
+		}
+	}
+}

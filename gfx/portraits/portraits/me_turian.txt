@@ -1,0 +1,211 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	#turian
+
+	turian_female_1 = {
+		entity = "portrait_turian_01_entity"
+		clothes_selector = "turian_female_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/r27/me_turian/turian_female_body_1.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_1a.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_1b.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_1c.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_1d.dds"
+		}
+	}
+
+	turian_female_2 = {
+		entity = "portrait_turian_01_entity"
+		clothes_selector = "turian_female_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/r27/me_turian/turian_female_body_2.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_2a.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_2b.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_2c.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_2d.dds"
+		}
+	}
+
+	turian_female_3 = {
+		entity = "portrait_turian_01_entity"
+		clothes_selector = "turian_female_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/r27/me_turian/turian_female_body_3.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_3a.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_3b.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_3c.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_3d.dds"
+		}
+	}
+
+	turian_female_4 = {
+		entity = "portrait_turian_01_entity"
+		clothes_selector = "turian_female_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/r27/me_turian/turian_female_body_4.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_4a.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_4b.dds"
+			"gfx/models/portraits/r27/me_turian/turian_female_body_4c.dds"
+		}
+	}
+
+	turian_2 = {
+		entity = "portrait_turian_01_entity"
+		clothes_selector = "turian_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "human_male_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/r27/me_turian/turian_body_2.dds"
+			"gfx/models/portraits/r27/me_turian/turian_body_2a.dds"
+			"gfx/models/portraits/r27/me_turian/turian_body_2b.dds"
+			"gfx/models/portraits/r27/me_turian/turian_body_2c.dds"
+		}
+	}
+
+	turian_3 = {
+		entity = "portrait_turian_01_entity"
+		clothes_selector = "turian_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "human_male_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/r27/me_turian/turian_body_3.dds"
+			"gfx/models/portraits/r27/me_turian/turian_body_3a.dds"
+			"gfx/models/portraits/r27/me_turian/turian_body_3b.dds"
+			"gfx/models/portraits/r27/me_turian/turian_body_3c.dds"
+			"gfx/models/portraits/r27/me_turian/turian_body_3d.dds"
+		}
+	}
+
+}
+
+portrait_groups = {
+	me_turian = {
+		default = turian_female_4
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					turian_female_1
+					turian_female_2
+					turian_female_3
+					turian_female_4
+				}
+			}
+
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					turian_2
+					turian_3
+				}
+			}
+
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					turian_female_1
+					turian_female_2
+					turian_female_3
+					turian_female_4
+					turian_2
+					turian_3
+				}
+			}
+
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					turian_female_1
+					turian_female_2
+					turian_female_3
+					turian_female_4
+					turian_2
+					turian_3
+				}
+			}
+
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					turian_female_1
+					turian_female_2
+					turian_female_3
+					turian_female_4
+				}
+			}
+		add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					turian_2
+					turian_3
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					turian_female_1
+					turian_female_2
+					turian_female_3
+					turian_female_4
+				}
+			}
+		add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					turian_2
+					turian_3
+				}
+			}
+		}
+	}
+}

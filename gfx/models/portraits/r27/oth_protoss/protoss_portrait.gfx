@@ -1,0 +1,121 @@
+objectTypes = {
+	#########################################################
+	#														#
+	#						PROTOSS					#
+	#														#
+	#########################################################
+
+	pdxmesh = {
+		name = "protoss_male_mesh"
+		file = "gfx/models/portraits/r27/oth_protoss/protoss_male.mesh"
+		scale = 1.0
+
+		animation = { id = "idle"	type = "human_male_02_happy_animation" }
+		animation = { id = "idle2"	type = "human_male_02_happy_2_animation" }
+		animation = { id = "sad"	type = "human_male_02_sad_animation" }
+		animation = { id = "sad2"	type = "human_male_02_sad_2_animation" }
+
+		meshsettings = {
+			name = "BlueShape"
+			index = 0
+			texture_diffuse = "protoss_male.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "CyanShape"
+			index = 0
+			texture_diffuse = "protoss_male2.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "GreyLShape"
+			index = 0
+			texture_diffuse = "protoss_male3.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "BeigeShape"
+			index = 0
+			texture_diffuse = "protoss_male4.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "outfitShape"
+			index = 0
+			texture_diffuse = "protoss_male_outfit1.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortraitClothes"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_female_mesh"
+		file = "gfx/models/portraits/r27/oth_protoss/protoss_female.mesh"
+		scale = 1.03
+
+		animation = { id = "idle"	type = "human_female_05_happy_animation" }
+		animation = { id = "idle2"	type = "human_female_05_happy_2_animation" }
+		animation = { id = "sad"	type = "human_female_05_sad_animation" }
+		animation = { id = "sad2"	type = "human_female_05_sad_2_animation" }
+
+		meshsettings = {
+			name = "BlueShape"
+			index = 0
+			texture_diffuse = "protoss_female.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "CyanShape"
+			index = 0
+			texture_diffuse = "protoss_female2.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "GreyLShape"
+			index = 0
+			texture_diffuse = "protoss_female3.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "BeigeShape"
+			index = 0
+			texture_diffuse = "protoss_female4.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "outfitShape"
+			index = 0
+			texture_diffuse = "protoss_female_outfit1.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshPortraitClothes"
+		}
+	}
+
+
+}

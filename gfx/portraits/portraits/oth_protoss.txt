@@ -1,0 +1,105 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	protoss_male_01 	= {
+		entity = "protoss_male_01_entity"
+		clothes_selector = "protoss_male_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_protoss/protoss_male.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_male2.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_male3.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_male4.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss male_1.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_male2_1.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_male3_1.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_male4_1.dds"
+		}
+	}
+	protoss_female_01 	= {
+		entity = "protoss_female_01_entity"		
+		clothes_selector = "protoss_female_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_protoss/protoss_female.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_female2.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_female3.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_female4.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_female_1.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_female2_1.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_female3_1.dds"
+			"gfx/models/portraits/r27/oth_protoss/protoss_female4_1.dds"
+		}
+	}
+
+}
+
+portrait_groups = {
+	oth_protoss = {
+		default = protoss_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = { ruler = { gender = male } }
+				portraits = { protoss_male_01 }
+			}
+			add = {
+				trigger = { ruler = { gender = female } }
+				portraits = { protoss_female_01 }
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					protoss_female_01
+					protoss_male_01
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					protoss_female_01
+					protoss_male_01
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = { gender = female }
+				portraits = { protoss_female_01 }
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = { protoss_male_01 }
+			}
+		}
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = { gender = female }
+				portraits = { protoss_female_01 }
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = { protoss_male_01 }
+			}
+		}
+	}
+}

@@ -1,0 +1,181 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	hum_thepallid_female_01 = {
+		entity = "portrait_human_dark_female_01_entity"
+		clothes_selector = "hum_thepallid_female_clothes_01"
+		hair_selector = "hum_thepallid_female_hair_01"
+		greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_01a.dds"
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_01b.dds"
+		}
+	}
+
+	hum_thepallid_female_02 = {
+		entity = "portrait_human_dark_female_02_entity"
+		clothes_selector = "hum_thepallid_female_clothes_01"
+		hair_selector = "hum_thepallid_female_hair_01"
+		greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_02a.dds"
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_02b.dds"
+		}
+	}
+
+	hum_thepallid_female_03 = {
+		entity = "portrait_human_dark_female_02_entity"
+		clothes_selector = "hum_thepallid_female_clothes_01"
+		hair_selector = "hum_thepallid_female_hair_01"
+		greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_03a.dds"
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_03b.dds"
+		}
+	}
+
+	hum_thepallid_male_01 = {
+		entity = "portrait_human_dark_male_01_entity"
+		clothes_selector = "hum_thepallid_male_clothes_01"
+		hair_selector = "hum_thepallid_male_hair_01"
+		greeting_sound = "human_male_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_01a.dds"
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_01b.dds"
+		}
+	}
+
+	hum_thepallid_male_02 = {
+		entity = "portrait_human_dark_male_02_entity"
+		clothes_selector = "hum_thepallid_male_clothes_01"
+		hair_selector = "hum_thepallid_male_hair_01"
+		greeting_sound = "human_male_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_02a.dds"
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_02b.dds"
+		}
+	}
+
+	hum_thepallid_male_03 = {
+		entity = "portrait_human_dark_male_02_entity"
+		clothes_selector = "hum_thepallid_male_clothes_01"
+		hair_selector = "hum_thepallid_male_hair_01"
+		greeting_sound = "human_male_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_03a.dds"
+			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_03b.dds"
+		}
+	}
+}
+
+portrait_groups = {
+
+	hum_thepallid = {
+
+		default = hum_thepallid_female_02
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					hum_thepallid_male_01
+					hum_thepallid_male_02
+					hum_thepallid_male_03
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					hum_thepallid_female_01
+					hum_thepallid_female_02
+					hum_thepallid_female_03
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					hum_thepallid_female_01
+					hum_thepallid_female_02
+					hum_thepallid_male_01
+					hum_thepallid_male_02
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					hum_thepallid_female_01
+					hum_thepallid_female_02
+					hum_thepallid_male_01
+					hum_thepallid_male_02
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					hum_thepallid_female_01
+					hum_thepallid_female_02
+					hum_thepallid_female_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					hum_thepallid_male_01
+					hum_thepallid_male_02
+					hum_thepallid_male_03
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					hum_thepallid_female_01
+					hum_thepallid_female_02
+					hum_thepallid_female_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					hum_thepallid_male_01
+					hum_thepallid_male_02
+					hum_thepallid_male_03
+				}
+			}
+		}
+	}
+}

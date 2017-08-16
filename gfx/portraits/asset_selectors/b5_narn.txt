@@ -1,0 +1,149 @@
+# This is a template which multiple species can use.
+
+b5_narn_female_clothes_01 = {
+	default = 	"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds" #royal
+
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = 	"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds" #royal
+	}
+
+	#species scope
+	species = { #generic portrait for a species
+		default = 	"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds" #royal
+	}
+
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/r27/b5_narn/narn_outfit_ruler.dds"
+
+		#Random clothes for normal pops
+		random = {
+			list = {
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds"			#simple warrior
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds" 			#royal
+
+				#default outfit
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_admiral.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_governor.dds"
+			}
+		}
+
+	}
+
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds" = { leader_class = scientist }
+		"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds" = { leader_class = general }
+		"gfx/models/portraits/r27/b5_narn/narn_outfit_admiral.dds" = { leader_class = admiral }
+		"gfx/models/portraits/r27/b5_narn/narn_outfit_governor.dds" = { leader_class = governor }
+	}
+
+	#leader scope
+	ruler = { #for rulers
+		default = "gfx/models/portraits/r27/b5_narn/narn_outfit_admiral.dds" #royal
+
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+					}
+				}
+			}
+			list = {
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds"	#simple warrior
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds" #royal
+
+				#default outfit
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_admiral.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_governor.dds"
+			}
+		}
+	}
+
+}
+
+
+b5_narn_male_clothes_01 = {
+	default = 	"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds" #royal
+
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = 	"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds" #royal
+	}
+
+	#species scope
+	species = { #generic portrait for a species
+		default = 	"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds" #royal
+	}
+
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/r27/b5_narn/narn_outfit_ruler.dds"
+
+		#Random clothes for normal pops
+		random = {
+			list = {
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds"	#simple warior
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds" #royal
+
+				#default outfit
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_admiral.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_governor.dds"
+			}
+		}
+	}
+
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds" = { leader_class = scientist }
+		"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds" = { leader_class = general }
+		"gfx/models/portraits/r27/b5_narn/narn_outfit_admiral.dds" = { leader_class = admiral }
+		"gfx/models/portraits/r27/b5_narn/narn_outfit_governor.dds" = { leader_class = governor }
+	}
+
+	#leader scope
+	ruler = { #for rulers
+		default ="gfx/models/portraits/r27/b5_narn/narn_outfit_admiral.dds" #royal
+
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+					}
+				}
+			}
+
+			list = {
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds"	#simple warior
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds" 	#royal
+
+				#default outfit
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_scientist.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_general.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_admiral.dds"
+				"gfx/models/portraits/r27/b5_narn/narn_outfit_governor.dds"
+			}
+		}
+
+	}
+
+}

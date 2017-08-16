@@ -1,0 +1,94 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	b5_narn_female_01 	= {
+		entity = "narn_female_01_entity"
+		clothes_selector = "b5_narn_female_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/r27/b5_narn/narn_female_body_03.dds"
+			"gfx/models/portraits/r27/b5_narn/narn_female_body_01.dds"
+		}
+	}
+	b5_narn_male_01 	= {
+		entity = "narn_male_01_entity"
+		clothes_selector = "b5_narn_male_clothes_01"
+		hair_selector = "general_no_hair"
+		greeting_sound = "human_male_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/r27/b5_narn/narn_male_body_03.dds"
+			"gfx/models/portraits/r27/b5_narn/narn_male_body_01.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	b5_narn = {
+		default = b5_narn_female_01
+		game_setup = {
+			add = {
+				trigger = { ruler = { gender = male } }
+				portraits = { b5_narn_male_01 }
+			}
+			add = {
+				trigger = { ruler = { gender = female } }
+				portraits = { b5_narn_female_01 }
+			}
+
+		}
+
+		#species scope
+		species = {
+			add = {
+				portraits = {
+					b5_narn_female_01
+					b5_narn_male_01
+				}
+			}
+		}
+
+		#pop scope
+		pop = {
+			add = {
+				portraits = {
+					b5_narn_female_01
+					b5_narn_male_01
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = { gender = female }
+				portraits = { b5_narn_female_01 }
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = { b5_narn_male_01 }
+			}
+		}
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = { gender = female }
+				portraits = { b5_narn_female_01 }
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = { b5_narn_male_01 }
+			}
+		}
+	}
+}

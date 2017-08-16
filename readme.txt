@@ -1,0 +1,59 @@
+
+
+Cat Portraits Dimorphism
+ 	Author: silfae
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=710345134
+	Races:
+		oth_cat
+
+Holosphere Rising
+	Author: silfae
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=868965217
+	Races:
+		oth_holofrixit
+
+Animated Hollow Portraits
+	Author: silfae and Oskar Potocki
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=902526212
+	Races:
+		oth_horrorworm
+
+The Psilons - Animated Species
+	Author: furipon
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=740677109
+	Races:
+		moo_psi
+
+Animated Prothean Race
+	Author: mnidjm
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=824841963
+	Races:
+		me_prothean
+
+Custom Race: The Pallid
+	Author: Krabiel
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=688294178
+	Races:
+		hum_thepallid
+
+(-United Sci-Fi Races-)
+	Author: Fugasas
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=814332008
+	Races:
+		b5_narn
+		me_geth
+		me_quarian
+		me_turian
+		oth_protoss
+
+Animated Zeriphen Portraits
+	Author: silfae
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=890709615
+	Races:
+		oth_zeriphen
+
+Animated Synthetics Portraits - Expanded
+	Author: silfae
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=933075365
+	Races:
+		oth_synth_cat
