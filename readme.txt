@@ -1,5 +1,11 @@
 
 
+Glub Glub - Fishbowl Portraits
+  Author: Tucker Carlson (Alex)
+  URL: http://steamcommunity.com/sharedfiles/filedetails/?id=1153460015
+  Races:
+    oth_glub
+
 Animated Silicoid Portraits
   Author: silfae
   URL: http://steamcommunity.com/sharedfiles/filedetails/?id=1160316076

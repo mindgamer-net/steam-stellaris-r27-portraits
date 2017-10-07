@@ -26,6 +26,7 @@ R27 = {
 		"oth_silicoid_04"
 		"oth_synth_cat"
 		"me_geth"
+		"oth_glub"
 		"oth_horrorworm"
 		"oth_xeno"
 	}
@@ -50,6 +51,7 @@ R27 = {
 		"oth_silicoid_04"
 		"oth_synth_cat"
 		"me_geth"
+		"oth_glub"
 		"oth_horrorworm"
 		"oth_xeno"
 	}

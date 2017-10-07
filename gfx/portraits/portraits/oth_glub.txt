@@ -1,0 +1,15 @@
+portraits = {
+
+	oth_glub = {
+		entity = "portrait_molluscoid_synthetic_dawn_01_entity"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+		greeting_sound = "cute_molluscoid_starfish_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_glub/robot1.dds"
+			"gfx/models/portraits/r27/oth_glub/robot2.dds"
+			"gfx/models/portraits/r27/oth_glub/robot3.dds"
+			"gfx/models/portraits/r27/oth_glub/robot4.dds"
+		}
+	}
+}
