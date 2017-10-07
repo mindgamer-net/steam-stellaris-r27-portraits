@@ -1,4 +1,13 @@
 
+Animated Silicoid Portraits
+  Author: silfae
+  URL: http://steamcommunity.com/sharedfiles/filedetails/?id=1160316076
+  Races:
+    oth_silicoid_01
+    oth_silicoid_b_01
+    oth_silicoid_02
+    oth_silicoid_04
+
 Twinks Engineer Species
   Author: Twink315
   URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1115264100
