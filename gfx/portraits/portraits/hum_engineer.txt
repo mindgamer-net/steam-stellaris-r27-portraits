@@ -1,0 +1,202 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	constructor_female_01 = { entity = "constructor_female_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_female_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_female_01.dds"
+		}
+	}
+	constructor_female_02 = { entity = "constructor_female_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_female_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_female_02.dds"
+		}
+	}
+	constructor_female_03 = { entity = "constructor_female_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_female_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_female_03.dds"
+		}
+	}
+	constructor_female_04 = { entity = "constructor_female_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_female_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_female_04.dds"
+		}
+	}
+	constructor_female_05 = { entity = "constructor_female_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_female_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_female_05.dds"
+		}
+	}
+	constructor_female_06 = { entity = "constructor_female_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_female_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_female_06.dds"
+		}
+	}
+
+	constructor_male_01 = {	entity = "constructor_male_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_male_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_male_01.dds"
+		}
+	}
+	constructor_male_02 = {	entity = "constructor_male_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_male_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_male_02.dds"
+		}
+	}
+	constructor_male_03 = {	entity = "constructor_male_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_male_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_male_03.dds"
+		}
+	}
+	constructor_male_04 = {	entity = "constructor_male_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_male_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_male_04.dds"
+		}
+	}
+	constructor_male_05 = {	entity = "constructor_male_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_male_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_male_05.dds"
+		}
+	}
+	constructor_male_06 = {	entity = "constructor_male_01_entity"	clothes_selector = "constructor_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_male_greeting_b"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_engineer/constructor_male_06.dds"
+		}
+	}
+
+}
+
+portrait_groups = {
+	hum_engineer = {
+		default = constructor_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					constructor_male_01
+					constructor_male_02
+					constructor_male_03
+					constructor_male_04
+					constructor_male_05
+					constructor_male_06
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					constructor_female_04
+					constructor_female_05
+					constructor_female_06
+					constructor_female_01
+					constructor_female_02
+					constructor_female_03
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					constructor_male_01
+
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					constructor_male_01
+					constructor_male_02
+					constructor_male_03
+					constructor_male_04
+					constructor_male_05
+					constructor_male_06
+					constructor_female_01
+					constructor_female_02
+					constructor_female_03
+					constructor_female_04
+					constructor_female_05
+					constructor_female_06
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					constructor_female_01
+					constructor_female_02
+					constructor_female_03
+					constructor_female_04
+					constructor_female_05
+					constructor_female_06
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					constructor_male_01
+					constructor_male_02
+					constructor_male_03
+					constructor_male_04
+					constructor_male_05
+					constructor_male_06
+				}
+			}
+		}
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					constructor_female_01
+					constructor_female_02
+					constructor_female_03
+					constructor_female_04
+					constructor_female_05
+					constructor_female_06
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					constructor_male_01
+					constructor_male_02
+					constructor_male_03
+					constructor_male_04
+					constructor_male_05
+					constructor_male_06
+				}
+			}
+		}
+	}
+}
