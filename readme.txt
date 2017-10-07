@@ -1,11 +1,5 @@
 
 
-Animated White Walkers
-  Author: mnidjm
-  URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1121221697
-  Races:
-    hum_white
-
 Animated Silicoid Portraits
   Author: silfae
   URL: http://steamcommunity.com/sharedfiles/filedetails/?id=1160316076
