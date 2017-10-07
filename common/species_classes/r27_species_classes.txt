@@ -22,6 +22,7 @@ R27 = {
 		"oth_synth_cat"
 		"oth_xeno"
 		"hum_thepallid"
+		"hum_engineer"
 	}
 
 	# These should not be used for randomly generated species
@@ -40,6 +41,7 @@ R27 = {
 		"oth_synth_cat"
 		"oth_xeno"
 		"hum_thepallid"
+		"hum_engineer"
 	}
 
 	randomized = no

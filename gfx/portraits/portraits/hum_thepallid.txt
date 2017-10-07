@@ -16,8 +16,8 @@ portraits = {
 		hair_selector = "hum_thepallid_female_hair_01"
 		greeting_sound = "human_female_greetings_03"
 		character_textures = {
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_01a.dds"
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_01b.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_female_body_01a.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_female_body_01b.dds"
 		}
 	}
 
@@ -27,8 +27,8 @@ portraits = {
 		hair_selector = "hum_thepallid_female_hair_01"
 		greeting_sound = "human_female_greetings_01"
 		character_textures = {
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_02a.dds"
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_02b.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_female_body_02a.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_female_body_02b.dds"
 		}
 	}
 
@@ -38,8 +38,8 @@ portraits = {
 		hair_selector = "hum_thepallid_female_hair_01"
 		greeting_sound = "human_female_greetings_01"
 		character_textures = {
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_03a.dds"
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_female_body_03b.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_female_body_03a.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_female_body_03b.dds"
 		}
 	}
 
@@ -49,8 +49,8 @@ portraits = {
 		hair_selector = "hum_thepallid_male_hair_01"
 		greeting_sound = "human_male_greetings_03"
 		character_textures = {
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_01a.dds"
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_01b.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_male_body_01a.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_male_body_01b.dds"
 		}
 	}
 
@@ -60,8 +60,8 @@ portraits = {
 		hair_selector = "hum_thepallid_male_hair_01"
 		greeting_sound = "human_male_greetings_01"
 		character_textures = {
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_02a.dds"
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_02b.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_male_body_02a.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_male_body_02b.dds"
 		}
 	}
 
@@ -71,8 +71,8 @@ portraits = {
 		hair_selector = "hum_thepallid_male_hair_01"
 		greeting_sound = "human_male_greetings_01"
 		character_textures = {
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_03a.dds"
-			"gfx/models/portraits/r27/oth_thepallid/human/human_dark_male_body_03b.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_male_body_03a.dds"
+			"gfx/models/portraits/r27/hum_thepallid/human/human_dark_male_body_03b.dds"
 		}
 	}
 }
