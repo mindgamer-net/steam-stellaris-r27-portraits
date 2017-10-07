@@ -23,6 +23,7 @@ R27 = {
 		"oth_xeno"
 		"hum_thepallid"
 		"hum_engineer"
+		"mam_hyena"
 	}
 
 	# These should not be used for randomly generated species
@@ -42,6 +43,7 @@ R27 = {
 		"oth_xeno"
 		"hum_thepallid"
 		"hum_engineer"
+		"mam_hyena"
 	}
 
 	randomized = no

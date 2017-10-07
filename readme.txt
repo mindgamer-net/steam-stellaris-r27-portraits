@@ -1,4 +1,16 @@
 
+Twinks Engineer Species
+  Author: Twink315
+  URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1115264100
+  Races:
+    hum_engineer
+
+Animated Hyena Portraits
+  Author: silfae
+  URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1126014321
+  Races:
+    mam_hyena
+
 Animated Xenomorph
   Author: rocket2guns
   URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1108143221
