@@ -1,4 +1,9 @@
 
+Animated Xenomorph
+  Author: rocket2guns
+  URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1108143221
+  Races:
+    oth_xeno
 
 Cat Portraits Dimorphism
  	Author: silfae

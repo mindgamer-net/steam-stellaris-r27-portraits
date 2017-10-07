@@ -20,6 +20,7 @@ R27 = {
 		"oth_zeriphen"
 		"oth_cat"
 		"oth_synth_cat"
+		"oth_xeno"
 		"hum_thepallid"
 	}
 
@@ -37,6 +38,7 @@ R27 = {
 		"oth_zeriphen"
 		"oth_cat"
 		"oth_synth_cat"
+		"oth_xeno"
 		"hum_thepallid"
 	}
 

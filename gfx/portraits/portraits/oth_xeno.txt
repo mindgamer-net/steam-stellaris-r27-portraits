@@ -1,0 +1,186 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	# Xeno
+	xenomorph_drone = {
+		entity = "xeno_portrait_entity"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+		greeting_sound = "plantoid_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_xeno/xenomorph_portrait.dds"
+		}
+	}
+}
+
+portrait_groups = {
+
+	oth_xeno = {
+		default = xenomorph_drone
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					xenomorph_drone
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					xenomorph_drone
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					NOT = { leader_class = scientist }
+					NOT = { leader_class = general }
+					NOT = { leader_class = admiral }
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					NOT = { leader_class = scientist }
+					NOT = { leader_class = general }
+					NOT = { leader_class = admiral }
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					xenomorph_drone
+				}
+			}
+		}
+	}
+
+}
