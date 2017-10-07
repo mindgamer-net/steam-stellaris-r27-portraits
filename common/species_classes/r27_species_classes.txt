@@ -10,6 +10,7 @@ R27 = {
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
 		"hum_thepallid"
 		"hum_engineer"
+		"hum_white"
 		"oth_cat"
 		"mam_hyena"
 		"moo_psi"
@@ -34,6 +35,7 @@ R27 = {
 	non_randomized_portraits = {
 		"hum_thepallid"
 		"hum_engineer"
+		"hum_white"
 		"oth_cat"
 		"mam_hyena"
 		"moo_psi"

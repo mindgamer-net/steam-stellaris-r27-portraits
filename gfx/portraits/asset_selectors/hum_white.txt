@@ -1,0 +1,141 @@
+# This is a template which multiple species can use.
+
+ww_clothes_02 = {
+	default = "gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds"
+
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds"
+	}
+
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds"
+	}
+
+	#pop scope
+	pop = { #for a specific pop
+	random = {
+			trigger = { always = yes }
+			list = {
+				"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds"   #add ruler clothes
+			}
+		}
+		default = "gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds"
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" 	= { tile = { has_building = building_power_plant_1 } }
+	}
+
+	#leader scope
+	leader = { #rulers, rulers, admirals, ruler
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { leader_class = ruler }
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { leader_class = ruler }
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { leader_class = admiral }
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { leader_class = ruler }
+	}
+
+	#leader scope
+	ruler = { #for rulers
+		default = "gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds"
+
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { owner = { has_generic_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { owner = { has_spiritualist_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { owner = { has_militarist_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { owner = { has_pacifist_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { owner = { has_primitive_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_f_outfit_ruler.dds" = { owner = { has_materialist_government = yes } }
+	}
+}
+
+whitewalker_hair_02 = {
+	default = "gfx/models/portraits/r27/hum_white/whitewaker_f_hair_style_01.dds"
+
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/r27/hum_white/whitewaker_f_hair_style_01.dds"
+	}
+
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/r27/hum_white/whitewaker_f_hair_style_01.dds"
+	}
+
+	#pop scope
+	pop = { #for a specific pop
+
+		default = "gfx/models/portraits/r27/hum_white/whitewaker_f_hair_style_01.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/r27/hum_white/whitewaker_f_hair_style_01.dds"
+			}
+		}
+	}
+}
+
+ww_clothes_01 = {
+	default = "gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds"
+	}
+
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds"
+	}
+
+	#pop scope
+	pop = { #for a specific pop
+	random = {
+			trigger = { always = yes }
+			list = {
+				"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds"   #add ruler clothes
+			}
+		}
+		default = "gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds"
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" 	= { tile = { has_building = building_power_plant_1 } }
+	}
+
+	#leader scope
+	leader = { #rulers, rulers, admirals, ruler
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { leader_class = ruler }
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { leader_class = ruler }
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { leader_class = admiral }
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { leader_class = ruler }
+	}
+
+	#leader scope
+	ruler = { #for rulers
+		default = "gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds"
+
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { owner = { has_generic_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { owner = { has_spiritualist_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { owner = { has_militarist_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { owner = { has_pacifist_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { owner = { has_primitive_government = yes } }
+		"gfx/models/portraits/r27/hum_white/whitewalker_outfit_ruler.dds" = { owner = { has_materialist_government = yes } }
+	}
+}
+
+whitewalker_hair_01 = {
+	default = "gfx/models/portraits/r27/hum_white/whitewaker_hair_style_01.dds"
+
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/r27/hum_white/whitewaker_hair_style_01.dds"
+	}
+
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/r27/hum_white/whitewaker_hair_style_01.dds"
+	}
+
+	#pop scope
+	pop = { #for a specific pop
+
+		default = "gfx/models/portraits/r27/hum_white/whitewaker_hair_style_01.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/r27/hum_white/whitewaker_hair_style_01.dds"
+			}
+		}
+	}
+}

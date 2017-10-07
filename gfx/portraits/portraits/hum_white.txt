@@ -1,0 +1,125 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	ww01 = {	entity = "humanoid_02_female_01_entity"	clothes_selector = "ww_clothes_01" hair_selector = "no_texture"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_white/whitewalker_body_01.dds"
+		}
+	}
+	ww02 = {	entity = "humanoid_02_female_01_entity"	clothes_selector = "ww_clothes_01" hair_selector = "whitewalker_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_white/whitewalker_body_02.dds"
+		}
+	}
+	ww03 = {	entity = "humanoid_02_female_01_entity"	clothes_selector = "ww_clothes_02" hair_selector = "whitewalker_hair_02"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/r27/hum_white/whitewalker_f_body_01.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	hum_white = {
+		default = ww01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					ww01
+					ww02
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					ww03
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					ww01
+					ww02
+
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					ww01
+					ww02
+
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					ww03
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					ww01
+
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					ww03
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					ww01
+
+				}
+			}
+		}
+	}
+}
