@@ -1,0 +1,732 @@
+portraits = {
+	sil_anthroid1 = {	entity = "portrait_arthropoid_11_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "arthropoid_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_anthroid_body_01.dds"
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_anthroid_body_02.dds"
+		}
+	}
+	sil_humroid2 = {	entity = "portrait_divsynth_00_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "robot_human_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_01.dds"
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_02.dds"
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_03.dds"
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_04.dds"
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_05.dds"
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_06.dds"
+		}
+	}
+	sil_humaicon1 = {	entity = "portrait_divsynth_02_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "robot_human_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_20.dds"
+		}
+	}
+	sil_humansynth_male = {	entity = "portrait_divsynth_male_01_entity"	clothes_selector = "divsynths_male_clothes_01" hair_selector = "divsynths_male_01_hair" greeting_sound = "robot_human_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_10.dds"
+		}
+	}
+	sil_humansynth_female = {	entity = "portrait_divsynth_female_01_entity"	clothes_selector = "divsynths_female_clothes_01" hair_selector = "divsynths_female_01_hair" greeting_sound = "robot_human_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_10.dds"
+		}
+	}
+
+	########  MAMMAL SYNTHS #######
+	sil_synth_cat_male = {	entity = "portrait_synth_mammalian_male_14_entity" clothes_selector = "divsynths_mamm_male_clothes_01" hair_selector = "no_texture" greeting_sound = "robot_mammalian_greetings"
+			character_textures = {
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_mam14.dds"
+				}
+	}
+	sil_synth_cat_female = {	entity = "portrait_synth_mammalian_female_14_entity" clothes_selector = "divsynths_mamm_female_clothes_01" hair_selector = "no_texture" greeting_sound = "robot_mammalian_greetings"
+			character_textures = {
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_mam14.dds"
+				}
+	}
+
+	########  REPTILIAN SYNTHS #######
+
+	sil_reptiliansynth_male = {	entity = "portrait_synth_reptilian_male04_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"
+		greeting_sound = "robot_reptilian_greetings"
+		character_textures = {
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_rept04.dds"
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_rept05.dds"
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_rept06.dds"
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_rept07.dds"
+		}
+	}
+	sil_reptiliansynth_female = {	entity = "portrait_synth_reptilian_female04_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"
+		greeting_sound = "robot_reptilian_greetings"
+		character_textures = {
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_rept04.dds"
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_rept05.dds"
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_rept06.dds"
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_rept07.dds"
+		}
+	}
+
+	########  ARTHROPOID SYNTHS #######
+	sil_arthropoidsynth_male = {	entity = "portrait_synth_arthropoid_male06_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_arthropoid_greetings"
+			character_textures = {
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_arth06.dds"
+			}
+	}
+	sil_arthropoidsynth_female = {	entity = "portrait_synth_arthropoid_female06_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_arthropoid_greetings"
+			character_textures = {
+					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_arth06.dds"
+			}
+	}
+
+	########  HOLOFRIXIGRAM SYNTHS #######
+	sil_holofrixigram1 = {	entity = "portrait_holofrixit_drone_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "robot_molluscoid_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/sil_divsynths/holofrixit_gram_body_03.dds"
+		}
+	}
+
+	########  TERMINATOR SYNTHS #######
+	sil_syntherminator_male = {	entity = "portrait_synth_terminator_male_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "robot_human_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/sil_divsynths/terminator_male_body_01.dds"
+			"gfx/models/portraits/r27/sil_divsynths/terminator_male_body_02.dds"
+			"gfx/models/portraits/r27/sil_divsynths/terminator_male_body_03.dds"
+			"gfx/models/portraits/r27/sil_divsynths/terminator_male_body_04.dds"
+		}
+	}
+	sil_syntherminator_female = {	entity = "portrait_synth_terminator_female_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "robot_human_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/sil_divsynths/terminator_female_body_01.dds"
+			"gfx/models/portraits/r27/sil_divsynths/terminator_female_body_02.dds"
+			"gfx/models/portraits/r27/sil_divsynths/terminator_female_body_03.dds"
+			"gfx/models/portraits/r27/sil_divsynths/terminator_female_body_04.dds"
+		}
+	}
+
+}
+
+portrait_groups = {
+	sil_humansynth = {
+		default = sil_humansynth_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					sil_humansynth_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					sil_humansynth_female
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sil_humansynth_male
+					sil_humansynth_female
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sil_humansynth_male
+					sil_humansynth_female
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_humansynth_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_humansynth_male
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_humansynth_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_humansynth_male
+				}
+			}
+		}
+	}
+
+	########  MAMMAL SYNTHS #######
+	sil_synth_cat = {
+		default = sil_synth_cat_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					sil_synth_cat_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					sil_synth_cat_female
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sil_synth_cat_male
+					sil_synth_cat_female
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sil_synth_cat_male
+					sil_synth_cat_female
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_synth_cat_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_synth_cat_male
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_synth_cat_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_synth_cat_male
+				}
+			}
+		}
+	}
+
+	########  REPTILIAN SYNTHS #######
+	sil_reptiliansynth = {
+		default = sil_reptiliansynth_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					sil_reptiliansynth_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					sil_reptiliansynth_female
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sil_reptiliansynth_male
+					sil_reptiliansynth_female
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sil_reptiliansynth_male
+					sil_reptiliansynth_female
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_reptiliansynth_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_reptiliansynth_male
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_reptiliansynth_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_reptiliansynth_male
+				}
+			}
+		}
+	}
+
+	########  ARTHROPOID SYNTHS ####### 6
+	sil_arthropoidsynth = {
+		default = sil_arthropoidsynth_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					sil_arthropoidsynth_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					sil_arthropoidsynth_female
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sil_arthropoidsynth_male
+					sil_arthropoidsynth_female
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sil_arthropoidsynth_male
+					sil_arthropoidsynth_female
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_arthropoidsynth_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_arthropoidsynth_male
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_arthropoidsynth_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_arthropoidsynth_male
+				}
+			}
+		}
+	}
+
+	########  ANTHROPOID ANDROID #######
+	sil_anthroid = {
+		default = sil_anthroid1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					sil_anthroid1
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sil_anthroid1
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sil_anthroid1
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					sil_anthroid1
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				portraits = {
+					sil_anthroid1
+				}
+			}
+		}
+	}
+
+	########  HUMAN ANDROID #######  Playable
+	sil_humroid = {
+		default = sil_humroid2
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					sil_humroid2
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sil_humroid2
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sil_humroid2
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					sil_humroid2
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				portraits = {
+					sil_humroid2
+				}
+			}
+		}
+	}
+
+	########  SYNTH CONSCIOUSNESS #######  Playable
+	sil_humaicon = {
+		default = sil_humaicon1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					sil_humaicon1
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sil_humaicon1
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sil_humaicon1
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					sil_humaicon1
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				portraits = {
+					sil_humaicon1
+				}
+			}
+		}
+	}
+
+	########  HOLOFRIXIGRAM #######
+	sil_holofrixigram = {
+		default = sil_holofrixigram1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					sil_holofrixigram1
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sil_holofrixigram1
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sil_holofrixigram1
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					sil_holofrixigram1
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				portraits = {
+					sil_holofrixigram1
+				}
+			}
+		}
+	}
+
+	#TERMINATOR SYNTHS
+	sil_syntherminator = {
+		default = sil_syntherminator_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					sil_syntherminator_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					sil_syntherminator_female
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sil_syntherminator_male
+					sil_syntherminator_female
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sil_syntherminator_male
+					sil_syntherminator_female
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_syntherminator_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_syntherminator_male
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sil_syntherminator_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sil_syntherminator_male
+				}
+			}
+		}
+	}
+
+
+} #closes portrait groups

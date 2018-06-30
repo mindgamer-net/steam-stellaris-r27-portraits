@@ -1,4 +1,18 @@
 
+Animated Synthetics Portraits - Expanded
+	Author: silfae
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=933075365
+	Races:
+    sil_humroid
+    sil_humansynth
+    sil_synth_cat
+    sil_reptiliansynth
+    sil_anthroid
+    sil_arthropoidsynth
+		sil_holofrixigram
+    sil_humaicon
+    sil_syntherminator
+
 Xeno Biodiversity
   Author: Ginufe
   URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1353289123
@@ -8,7 +22,6 @@ Xeno Biodiversity
     gin_glower
     gin_clacker
     gin_arachna
-
 
 Glub Glub - Fishbowl Portraits
   Author: Tucker Carlson (Alex)
@@ -93,9 +106,3 @@ Animated Zeriphen Portraits
 	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=890709615
 	Races:
 		oth_zeriphen
-
-Animated Synthetics Portraits - Expanded
-	Author: silfae
-	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=933075365
-	Races:
-		oth_synth_cat

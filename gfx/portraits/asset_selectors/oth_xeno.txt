@@ -5,7 +5,8 @@ room_selector = {
 
 	#will run with a limited country scope. species and government is set but the country does not actually exist
 	game_setup = {
-		"oth_xeno_room" =				{ has_trait = trait_xenomorph }
+		"oth_xeno_room" 						=	{ always = yes }
+		"synthetic_ascension_room"	=	{ always = yes }
 	}
 
 	#leader scope

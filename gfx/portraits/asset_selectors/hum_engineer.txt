@@ -30,7 +30,7 @@ constructor_male_clothes_01 = {
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
 		"gfx/models/portraits/r27/hum_engineer/constructor_outfit_governor.dds"	 = { leader_class = scientist }
-		"gfx/models/portraits/r27/hum_engineer/constructor_outfit_governor.dds"	" = { leader_class = general }
+		"gfx/models/portraits/r27/hum_engineer/constructor_outfit_governor.dds"	 = { leader_class = general }
 		"gfx/models/portraits/r27/hum_engineer/constructor_outfit_admiral.dds"	 = { leader_class = admiral }
 		"gfx/models/portraits/r27/hum_engineer/constructor_outfit_governor.dds"	 = { leader_class = governor }
 	}
