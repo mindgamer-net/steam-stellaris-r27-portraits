@@ -1,0 +1,26 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+  gin_arachna = {
+    entity = "humanoid_hp_09_entity" 
+    clothes_selector = "humanoid_hp_09_male_clothes"
+    hair_selector = "no_texture"
+    greeting_sound = "arthropoid_01_greetings"
+    character_textures = {
+      "gfx/models/portraits/r27/gin_arachna/arachna.dds"
+      "gfx/models/portraits/r27/gin_arachna/arachnabrown.dds"
+      "gfx/models/portraits/r27/gin_arachna/arachnapurple.dds"
+      "gfx/models/portraits/r27/gin_arachna/arachnagreen.dds"
+    }
+  }
+
+}

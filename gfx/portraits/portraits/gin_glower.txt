@@ -1,0 +1,25 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\r27_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+  gin_glower = {
+    entity = "portrait_mammalian_13_entity"
+    clothes_selector = "no_texture"
+    hair_selector = "no_texture"
+    greeting_sound = "reptilian_01_greetings"
+    character_textures = {
+      "gfx/models/portraits/r27/gin_glower/glower.dds"
+      "gfx/models/portraits/r27/gin_glower/glower_gray.dds"
+      "gfx/models/portraits/r27/gin_glower/glower_brown.dds"
+    }
+  }
+
+}
