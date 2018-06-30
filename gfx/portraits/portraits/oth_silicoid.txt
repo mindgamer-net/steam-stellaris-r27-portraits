@@ -1,20 +1,4 @@
 portraits = {
-	silicoid_female_01 = {	entity = "portrait_silicoid_female_01_entity"	clothes_selector = "no_texture"	hair_selector = "silicoid_01_female_01_hair" greeting_sound = "plantoid_greetings"
-		character_textures = {
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_female_body_01.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_female_body_01a.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_female_body_01b.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_female_body_01c.dds"
-		}
-	}
-	silicoid_male_01 = {	entity = "portrait_silicoid_male_01_entity"	clothes_selector = "no_texture"	hair_selector = "silicoid_01_male_01_hair"	greeting_sound = "plantoid_greetings"
-		character_textures = {
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_01.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_01a.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_01b.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_01c.dds"
-		}
-	}
 	silicoid_b_01 = {	entity = "portrait_silicoid_male_01_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "plantoid_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_02.dds"
@@ -73,89 +57,7 @@ portraits = {
 }
 
 portrait_groups = {
-	oth_silicoid_01 = {
-		default = silicoid_male_01
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				trigger = {
-					ruler = { gender = male }
-				}
-				portraits = {
-					silicoid_male_01
-				}
-			}
-			add = {
-				trigger = {
-					ruler = { gender = female }
-				}
-				portraits = {
-					silicoid_female_01
-				}
-			}
 
-		}
-
-		#species scope
-		species = { #generic portrait for a species
-			add = {
-				portraits = {
-					silicoid_male_01
-					silicoid_female_01
-				}
-			}
-		}
-
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					silicoid_male_01
-					silicoid_female_01
-				}
-			}
-		}
-
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			add = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-					silicoid_female_01
-				}
-			}
-			add = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					silicoid_male_01
-				}
-			}
-		}
-
-
-		#leader scope
-		ruler = {
-			add = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-					silicoid_female_01
-				}
-			}
-			add = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					silicoid_male_01
-				}
-			}
-		}
-	}
 	oth_silicoid_04 = {
 		default = silicoid_male_04
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
@@ -243,6 +145,7 @@ portrait_groups = {
 			}
 		}
 	}
+
 	oth_silicoid_b_01 = {
 		default = silicoid_b_01
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist

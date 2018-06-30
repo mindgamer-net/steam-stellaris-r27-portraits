@@ -2,17 +2,6 @@ objectTypes = {
 	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
 	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
 
-
-	pdxmesh = {
-		name = "portrait_silicoid_01_female_01_mesh"
-		file = "gfx/models/portraits/r27/oth_silicoid/silicoid_01_female_01.mesh"
-		animation = { id = "idle"	type = "human_female_05_happy_animation" }
-		animation = { id = "idle2"	type = "human_female_05_happy_2_animation" }
-		animation = { id = "sad"	type = "human_female_05_sad_animation" }
-		animation = { id = "sad2"	type = "human_female_05_sad_2_animation" }
-
-		scale = 1.0
-	}
 	pdxmesh = {
 		name = "portrait_silicoid_01_male_01_mesh"
 		file = "gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_01.mesh"
