@@ -37,12 +37,6 @@ Animated Silicoid Portraits
     oth_silicoid_02
     oth_silicoid_04
 
-Twinks Engineer Species
-  Author: Twink315
-  URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1115264100
-  Races:
-    hum_engineer
-
 Animated Hyena Portraits
   Author: silfae
   URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1126014321
