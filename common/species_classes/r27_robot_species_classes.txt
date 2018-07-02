@@ -5,29 +5,9 @@
 # can specify randomized=no to filter specified class from randomization.
 #	playable = trigger, default is yes, to specify if portraits are playable
 
-R27 = {
+R27_robot_class = {
 	archetype = BIOLOGICAL
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
-		"hum_thepallid"
-		"oth_cat"
-		"mam_hyena"
-		"moo_psi"
-		"b5_narn"
-		"me_quarian"
-		"me_prothean"
-		"me_turian"
-		"gin_snorter"
-		"gin_lurker"
-		"gin_glower"
-		"gin_clacker"
-		"gin_arachna"
-		"oth_glub"
-		"oth_protoss"
-		"oth_holofrixit"
-		"oth_zeriphen"
-		"oth_silicoid_b_01"
-		"oth_silicoid_02"
-		"oth_silicoid_04"
 		"sil_humroid"
 		"sil_humansynth"
 		"sil_synth_cat"
@@ -38,32 +18,10 @@ R27 = {
 		"sil_humaicon"
 		"sil_syntherminator"
 		"me_geth"
-		"oth_horrorworm"
-		"oth_xeno"
 	}
 
 	# These should not be used for randomly generated species
 	non_randomized_portraits = {
-		"hum_thepallid"
-		"oth_cat"
-		"mam_hyena"
-		"moo_psi"
-		"b5_narn"
-		"me_quarian"
-		"me_prothean"
-		"me_turian"
-		"gin_snorter"
-		"gin_lurker"
-		"gin_glower"
-		"gin_clacker"
-		"gin_arachna"
-		"oth_glub"
-		"oth_protoss"
-		"oth_holofrixit"
-		"oth_zeriphen"
-		"oth_silicoid_b_01"
-		"oth_silicoid_02"
-		"oth_silicoid_04"
 		"sil_humroid"
 		"sil_humansynth"
 		"sil_synth_cat"
@@ -74,12 +32,10 @@ R27 = {
 		"sil_humaicon"
 		"sil_syntherminator"
 		"me_geth"
-		"oth_horrorworm"
-		"oth_xeno"
 	}
 
 	randomized = no
-	graphical_culture = mammalian_01
+	graphical_culture = r27_robot
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 }

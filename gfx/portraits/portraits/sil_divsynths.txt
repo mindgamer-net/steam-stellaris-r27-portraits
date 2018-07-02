@@ -65,12 +65,12 @@ portraits = {
 	}
 
 	########  ARTHROPOID SYNTHS #######
-	sil_arthropoidsynth_male = {	entity = "portrait_synth_arthropoid_male06_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_arthropoid_greetings"
+	sil_arthropoidsynth_male = {	entity = "portrait_synth_arthropoid_male06_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"
 			character_textures = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_arth06.dds"
 			}
 	}
-	sil_arthropoidsynth_female = {	entity = "portrait_synth_arthropoid_female06_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_arthropoid_greetings"
+	sil_arthropoidsynth_female = {	entity = "portrait_synth_arthropoid_female06_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"
 			character_textures = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_arth06.dds"
 			}
