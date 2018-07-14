@@ -22,7 +22,7 @@ R27_silicoid_class = {
 		"oth_silicoid_04"
 	}
 
-	randomized = no
+	randomized = yes
 	graphical_culture = r27_silicoid
 	move_pop_sound_effect = "moving_pop_confirmation"
 

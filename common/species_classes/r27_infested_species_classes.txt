@@ -20,7 +20,7 @@ R27_infested_class = {
 		"oth_xeno"
 	}
 
-	randomized = no
+	randomized = yes
 	graphical_culture = r27_infested
 	move_pop_sound_effect = "moving_pop_confirmation"
 

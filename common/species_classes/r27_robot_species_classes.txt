@@ -39,7 +39,7 @@ R27_robot_class = {
 		"me_geth"
 	}
 
-	randomized = no
+	randomized = yes
 	graphical_culture = r27_robot
 	move_pop_sound_effect = "moving_pop_confirmation"
 
