@@ -1,0 +1,9 @@
+# This is a template which multiple species can use.
+
+zeriphen_female_a_01_hair = {
+	default = "gfx/models/portraits/r27/oth_zeriphen/zeriphen_female_hair_black_style_01.dds"
+}
+
+zeriphen_male_a_01_hair = {
+	default = "gfx/models/portraits/r27/oth_zeriphen/zeriphen_male_hair_black_style_01.dds"
+}

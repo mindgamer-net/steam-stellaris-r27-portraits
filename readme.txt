@@ -1,4 +1,8 @@
 
+========
+Species
+========
+
 Animated Synthetics Portraits - Expanded
 	Author: silfae
 	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=933075365
@@ -100,3 +104,19 @@ Animated Zeriphen Portraits
 	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=890709615
 	Races:
 		oth_zeriphen
+
+
+======
+Rooms
+======
+
+Infested Room & City Set
+  Author: The Supreme Brain (https://steamcommunity.com/profiles/76561198056551796)
+  URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1160405318
+  Sets:
+    r27_infested
+
+Diverse Rooms
+  Author: LastLeviathan
+  URL: https://steamcommunity.com/sharedfiles/filedetails/?id=902204956
+  Sets:

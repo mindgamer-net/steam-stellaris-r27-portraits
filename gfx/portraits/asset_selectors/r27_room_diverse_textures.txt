@@ -1,0 +1,43 @@
+room_selector = {
+	#default = "d_room"	#point to textures that end with "_room.dds" but remove the file ending
+
+	default = "command2_room"	#point to textures that end with "_room.dds" but remove the file ending
+
+	#will run with a limited country scope. species and government is set but the country does not actually exist
+
+	game_setup = {
+		"div_barren1_room" = {}
+		"div_cave2_room" = {}
+		"div_cave3_room" = {}
+		"div_cave4_room" = {}
+		"div_cave10_room" = {}
+		"div_cave11_room" = {}
+		"div_control1_room" = {}
+		"div_extradimensional_green_room" = {}
+		"div_extradimensional_orange_room" = {}
+		"div_extradimensional_room" = {}
+		"div_frozen1_room" = {}
+		"div_frozen6_room" = {}
+		"div_fungus2_room" = {}
+		"div_fungus5_room" = {}
+		"div_hive2_room" = {}
+		"div_hive4_room" = {}
+		"div_hive6_room" = {}
+		"div_industrial1_room" = {}
+		"div_industrial3_room" = {}
+		"div_outdoor7_room" = {}
+		"div_outdoor8_room" = {}
+		"div_outdoor9_room" = {}
+		"div_plantoid2_room" = {}
+		"div_plantoid4_room" = {}
+		"div_plantoid5_room" = {}
+		"div_spiritualist10_room" = {}
+		"div_tech4_room" = {}
+		"div_xenomorph2_room" = {}
+	}
+
+	#leader scope
+	ruler = {
+		"div_ethic_dark_side_room" = { exists = owner owner = { has_ethic = ethic_dark_side } }
+	}
+}

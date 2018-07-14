@@ -31,16 +31,16 @@ objectTypes = {
 #	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
 
 
-	pdxmesh = {
-		name = "portrait_silicoid_03_mesh"
-		file = "gfx/models/portraits/r27/oth_silicoid/silicoid_03_portrait.mesh"
-		animation = { id = "idle"	type = "avian_synthetic_dawn_01_idle_animation" }
-		animation = { id = "idle2"	type = "avian_synthetic_dawn_01_idle_2_animation" }
-		animation = { id = "idle3"	type = "avian_synthetic_dawn_01_idle_3_animation" }
-		animation = { id = "idle4"	type = "avian_synthetic_dawn_01_idle_4_animation" }
-
-		scale = 1.0
-	}
+	#pdxmesh = {
+	#	name = "portrait_silicoid_03_mesh"
+	#	file = "gfx/models/portraits/r27/oth_silicoid/silicoid_03_portrait.mesh"
+	#	animation = { id = "idle"	type = "avian_synthetic_dawn_01_idle_animation" }
+	#	animation = { id = "idle2"	type = "avian_synthetic_dawn_01_idle_2_animation" }
+	#	animation = { id = "idle3"	type = "avian_synthetic_dawn_01_idle_3_animation" }
+	#	animation = { id = "idle4"	type = "avian_synthetic_dawn_01_idle_4_animation" }
+	#
+	#	scale = 1.0
+	#}
 
 
 
