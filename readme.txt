@@ -105,6 +105,12 @@ Animated Zeriphen Portraits
 	Races:
 		oth_zeriphen
 
+Animated Raptor Portraits
+	Author: silfae
+	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=872596925
+	Races:
+		oth_saurischian
+
 
 ======
 Rooms

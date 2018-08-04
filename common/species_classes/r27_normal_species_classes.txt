@@ -24,6 +24,7 @@ R27_normal_class = {
 		"oth_protoss"
 		"oth_holofrixit"
 		"oth_zeriphen"
+		"oth_saurischian"
 	}
 
 	# These should not be used for randomly generated species
@@ -44,6 +45,7 @@ R27_normal_class = {
 		"oth_protoss"
 		"oth_holofrixit"
 		"oth_zeriphen"
+		"oth_saurischian"
 	}
 
 	randomized = yes
