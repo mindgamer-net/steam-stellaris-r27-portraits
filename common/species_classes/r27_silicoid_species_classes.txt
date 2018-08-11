@@ -7,7 +7,6 @@
 
 R27_silicoid_class = {
 	archetype = BIOLOGICAL
-	use_climate_preference = no
 
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
 		"oth_silicoid_b_01"
