@@ -7,16 +7,16 @@
 
 R27_infested_class = {
 	archetype = BIOLOGICAL
-	
+
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
-		"hum_thepallid"
+		"inf_palid"
 		"oth_horrorworm"
 		"oth_xeno"
 	}
 
 	# These should not be used for randomly generated species
 	non_randomized_portraits = {
-		"hum_thepallid"
+		"inf_palid"
 		"oth_horrorworm"
 		"oth_xeno"
 	}

@@ -87,7 +87,7 @@ Custom Race: The Pallid
 	Author: Krabiel
 	URL: http://steamcommunity.com/sharedfiles/filedetails/?id=688294178
 	Races:
-		hum_thepallid
+		inf_palid
 
 (-United Sci-Fi Races-)
 	Author: Fugasas
