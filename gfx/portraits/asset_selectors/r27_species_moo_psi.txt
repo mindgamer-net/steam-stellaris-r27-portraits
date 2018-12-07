@@ -17,7 +17,7 @@ moo_psi_clothes_01 = {
 		default = "gfx/models/portraits/r27/moo_psi/moo_psilon_outfit_governor.dds"
 
 		#	"gfx/models/portraits/r27/moo_psi/moo_psilon_outfit_governor.dds" = { tile = { has_building = building_power_plant_1 } }
-		"gfx/models/portraits/r27/moo_psi/moo_psilon_outfit_scientist.dds" = { tile = { has_building = building_engineering_facility_1 } }
+		# "gfx/models/portraits/r27/moo_psi/moo_psilon_outfit_scientist.dds" = { tile = { has_building = building_engineering_facility_1 } }
 		#	"gfx/models/portraits/r27/moo_psi/moo_psilon_outfit_governor.dds" = { tile = { has_building = building_hydroponics_farm_1 } }
 	}
 
@@ -40,7 +40,7 @@ moo_psi_clothes_01 = {
 		"gfx/models/portraits/r27/moo_psi/moo_psilon_outfit_admiral.dds" = { owner = { has_primitive_government = yes } }
 		"gfx/models/portraits/r27/moo_psi/moo_psilon_outfit_scientist.dds" = { owner = { has_materialist_government = yes } }
 	}
-	
+
 }
 
 # molluscoid_hair_1 = {
