@@ -117,6 +117,12 @@ Dimorphism - Fungoid Parasite Portraits
 	Races:
 		inf_fungoid
 
+Animated Aquilese Portraits
+	Author: silfae
+	URL: https://steamcommunity.com/sharedfiles/filedetails/?id=910576007
+	Races:
+		oth_romaneagles
+
 
 ======
 Rooms

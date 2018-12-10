@@ -1,0 +1,148 @@
+portraits = {
+	oth_romaneagles_female_01 = {
+		entity = "portrait_romaneagles_female_01_entity"
+		clothes_selector = "oth_romaneagles_female_clothes_01"
+		hair_selector = "no_texture"
+		greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_a_body_01.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_a_body_02.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_a_body_03.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_a_body_04.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_a_body_05.dds"
+		}
+	}
+	oth_romaneagles_female_02 = {
+		entity = "portrait_romaneagles_female_01_entity"
+		clothes_selector = "oth_romaneagles_female_clothes_01"
+		hair_selector = "no_texture"
+		greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_b_body_01.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_b_body_02.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_b_body_03.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_b_body_04.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_b_body_05.dds"
+		}
+	}
+	oth_romaneagles_male_01 = {
+		entity = "portrait_romaneagles_male_01_entity"
+		clothes_selector = "oth_romaneagles_male_clothes_01"
+		hair_selector = "no_texture"
+		greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_a_body_01.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_a_body_02.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_a_body_03.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_a_body_04.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_a_body_05.dds"
+		}
+	}
+	oth_romaneagles_male_02 = {
+		entity = "portrait_romaneagles_male_01_entity"
+		clothes_selector = "oth_romaneagles_male_clothes_01"
+		hair_selector = "no_texture"
+		greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_b_body_01.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_b_body_02.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_b_body_03.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_b_body_04.dds"
+			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_b_body_05.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	oth_romaneagles = {
+		default = oth_romaneagles_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					oth_romaneagles_male_01
+					oth_romaneagles_male_02
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					oth_romaneagles_female_01
+					oth_romaneagles_female_02
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					oth_romaneagles_male_01
+					oth_romaneagles_male_02
+					oth_romaneagles_female_01
+					oth_romaneagles_female_02
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					oth_romaneagles_male_01
+					oth_romaneagles_female_01
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					oth_romaneagles_female_01
+					oth_romaneagles_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					oth_romaneagles_male_01
+					oth_romaneagles_male_02
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					oth_romaneagles_female_01
+					oth_romaneagles_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					oth_romaneagles_male_01
+					oth_romaneagles_male_02
+				}
+			}
+		}
+	}
+}
