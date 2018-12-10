@@ -12,6 +12,7 @@ R27_infested_class = {
 		"inf_palid"
 		"oth_horrorworm"
 		"oth_xeno"
+		"inf_fungoid"
 	}
 
 	# These should not be used for randomly generated species
@@ -19,6 +20,7 @@ R27_infested_class = {
 		"inf_palid"
 		"oth_horrorworm"
 		"oth_xeno"
+		"inf_fungoid"
 	}
 
 	randomized = yes

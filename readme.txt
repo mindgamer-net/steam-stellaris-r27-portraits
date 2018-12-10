@@ -111,6 +111,12 @@ Animated Raptor Portraits
 	Races:
 		oth_saurischian
 
+Dimorphism - Fungoid Parasite Portraits
+	Author: silfae
+	URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1172077353
+	Races:
+		inf_fungoid
+
 
 ======
 Rooms
