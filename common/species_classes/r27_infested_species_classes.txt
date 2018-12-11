@@ -27,4 +27,6 @@ R27_infested_class = {
 	graphical_culture = r27_infested
 	move_pop_sound_effect = "moving_pop_confirmation"
 
+	resources = {}
+
 }

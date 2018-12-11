@@ -25,4 +25,6 @@ R27_silicoid_class = {
 	graphical_culture = r27_silicoid
 	move_pop_sound_effect = "moving_pop_confirmation"
 
+	resources = {}
+
 }

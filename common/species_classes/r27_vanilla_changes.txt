@@ -43,6 +43,8 @@ HUM = {
 
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
+
+	resources = {}
 }
 
 MAM = {
@@ -342,6 +344,8 @@ MOL = {
 
 	graphical_culture = molluscoid_01
 	move_pop_sound_effect = "molluscoid_pops_move"
+
+	resources = {}
 }
 
 FUN = {
