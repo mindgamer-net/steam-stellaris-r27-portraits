@@ -40,7 +40,8 @@ R27_robot_class = {
 	}
 
 	randomized = yes
-	graphical_culture = r27_robot
+	graphical_culture = humanoid_01
+	#r27_robot
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	resources = {}

@@ -24,7 +24,8 @@ R27_infested_class = {
 	}
 
 	randomized = yes
-	graphical_culture = r27_infested
+	graphical_culture = humanoid_01
+	#r27_infested
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	resources = {}
