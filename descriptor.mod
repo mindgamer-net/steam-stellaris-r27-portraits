@@ -5,4 +5,4 @@ tags={
 	"Species"
 }
 picture="r27_1.jpg"
-supported_version="2.2.*"
+supported_version="2.3.*"
