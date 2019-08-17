@@ -12,13 +12,13 @@ Rather the credit goes to the people listed below. Give their original mods a tr
 | ------------- |--------|:-----------------------:|
 | [Animated&nbsp;Synthetics&nbsp;Portraits&nbsp;-&nbsp;Expanded](http://steamcommunity.com/sharedfiles/filedetails/?id=933075365)  | silfae | `sil_humroid`,  `sil_humansynth`, `sil_synth_cat`, `sil_reptiliansynth`, `sil_anthroid`, `sil_arthropoidsynth`, `sil_holofrixigram`, `sil_humaicon`, `sil_syntherminator` |
 | [Xeno&nbsp;Biodiversity](https://steamcommunity.com/sharedfiles/filedetails/?id=1353289123) | Ginufe |  `gin_snorter`, `gin_lurker`, `gin_glower`, `gin_clacker`, `gin_arachna` |
-| [Glub&nbsp;Glub&nbsp;-&nbsp;Fishbowl&nbsp;Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=1153460015) | Tucker Carlson (Alex) | `oth_glub` |
+| [Glub&nbsp;Glub&nbsp;-&nbsp;Fishbowl&nbsp;Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=1153460015) | Tucker&nbsp;Carlson (Alex) | `oth_glub` |
 | [Animated Silicoid Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=1160316076) | silfae | `oth_silicoid_b_01`, `oth_silicoid_02`, `oth_silicoid_04` |
 | [Animated Hyena Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=1126014321) | silfae | `mam_hyena` |
 | [Animated Xenomorph](http://steamcommunity.com/sharedfiles/filedetails/?id=1108143221) | rocket2guns | `oth_xeno` |
 | [Cat Portraits Dimorphism](http://steamcommunity.com/sharedfiles/filedetails/?id=710345134) | silfae | `oth_cat` |
 | [Holosphere Rising](http://steamcommunity.com/sharedfiles/filedetails/?id=868965217) | silfae | `oth_holofrixit` |
-| [Animated Hollow Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=902526212) | silfae and Oskar Potocki | `oth_horrorworm` |
+| [Animated Hollow Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=902526212) | silfae, Oskar&nbsp;Potocki | `oth_horrorworm` |
 | [The Psilons - Animated Species](http://steamcommunity.com/sharedfiles/filedetails/?id=740677109) | furipon | `moo_psi` |
 | [Animated Prothean Race](http://steamcommunity.com/sharedfiles/filedetails/?id=824841963) | mnidjm | `me_prothean` |
 | [Custom Race: The Pallid](http://steamcommunity.com/sharedfiles/filedetails/?id=688294178) | Krabiel | `inf_palid` |
