@@ -5,7 +5,7 @@
  ####################################
 
 R27_normal_class:0 "R27 Biologisch"
-R27_silicoid_class:0 "R27 Silicoid"
+R27_silicoid_class:0 "R27 Silizoid"
 R27_infested_class:0 "R27 Infizierend"
 R27_robot_class:0 "R27 Maschine"
-R27_robot_bio_class:0 "R27 BioMaschine"
+R27_robot_bio_class:0 "R27 BioMech"
