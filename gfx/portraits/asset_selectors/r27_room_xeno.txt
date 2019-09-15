@@ -8,9 +8,4 @@ room_selector = {
 		"r27_xeno_room" 						=	{ always = yes }
 		"r27_synthetic_ascension_room"	=	{ always = yes }
 	}
-
-	#leader scope
-	ruler = {
-		"r27_xeno_room" =				{ exists = owner owner = { has_trait = trait_xenomorph } }
-	}
 }
