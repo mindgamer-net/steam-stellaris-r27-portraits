@@ -38,8 +38,8 @@ objectTypes = {
 
 		scale = 1.4
 	}
-
 ## SYNTH MAMMALS
+
 	pdxmesh = {
 		name = "portrait_synth_mammalian_male_14_mesh"
 		file = "gfx/models/portraits/mammalian/mammalian_14_portrait.mesh"
@@ -60,6 +60,7 @@ objectTypes = {
 	}
 
 ## SYNTH REPTILIANS
+
 	pdxmesh = {
 		name = "portrait_synth_reptilian_male04_mesh"
 		file = "gfx/models/portraits/avian/avian_15_portrait.mesh"
@@ -77,7 +78,27 @@ objectTypes = {
 	}
 
 
+## SYNTH AVIANS
+
+		pdxmesh = {
+		name = "portrait_synth_avian_male10_mesh"
+		file = "gfx/models/portraits/r27/sil_divsynths/divsynths_body_avi10.mesh"
+		animation = { id = "idle"	type = "avian_11_happy_animation" }
+		animation = { id = "idle2"	type = "avian_11_happy_2_animation" }
+		
+		scale = 0.98
+	}	
+		pdxmesh = {
+		name = "portrait_synth_avian_female10_mesh"
+		file = "gfx/models/portraits/r27/sil_divsynths/divsynths_body_avi10.mesh"
+		animation = { id = "idle"	type = "avian_11_happy_animation" }
+		animation = { id = "idle2"	type = "avian_11_happy_2_animation" }
+		
+		scale = 1.0
+	}	
+
 ## SYNTH ARTHROPOIDS
+	
 	pdxmesh = {
 		name = "portrait_synth_arthropoid_male06_mesh"
 		file = "gfx/models/portraits/r27/sil_divsynths/divsynths_body_arth1.mesh"
@@ -96,7 +117,43 @@ objectTypes = {
 		scale = 1.0
 	}
 
+## SYNTH MOLLUSCOIDS
+	
+		pdxmesh = {
+		name = "portrait_synth_molluscoid12_mesh"
+		file = "gfx/models/portraits/molluscoid/molluscoid_11_portrait.mesh"
+		animation = { id = "idle"	type = "molluscoid_11_portrait_happy_animation" }
+		animation = { id = "idle2"	type = "molluscoid_11_portrait_happy_2_animation" }
+		scale = 1.0
+	}	
+	
+
+
+## SYNTH FUNGOIDS	
+
+		pdxmesh = {
+		name = "portrait_synth_fungoid08_mesh"
+		file = "gfx/models/portraits/fungoid/fungoid_08_portrait.mesh"
+		animation = { id = "idle"	type = "fungoid_08_happy_animation" }
+		animation = { id = "idle2"	type = "fungoid_08_happy_2_animation" }
+
+		scale = 1.0
+	}
+
+## SYNTH PLANTOIDS	
+
+	pdxmesh = {
+		name = "portrait_synth_plantoid07_mesh"
+		file = "gfx/models/portraits/plantoid/plantoid_12_portrait.mesh"
+		animation = { id = "idle"	type = "plantoid_12_happy_animation" }
+		animation = { id = "idle2"	type = "plantoid_12_happy_2_animation" }
+		animation = { id = "idle3"	type = "plantoid_12_happy_3_animation" }
+		animation = { id = "idle4"	type = "plantoid_12_happy_4_animation" }
+		scale = 1.0
+	}
+
 ## SYNTH TERMINATOR
+
 	pdxmesh = {
 		name = "portrait_synth_terminator_mesh"
 		file = "gfx/models/portraits/synthetic_dawn/humanoid_synthetic_dawn_01_portrait.mesh"
