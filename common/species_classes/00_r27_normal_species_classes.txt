@@ -51,7 +51,7 @@ R27_normal_class = {
 	}
 
 	randomized = yes
-	graphical_culture = humanoid_01
+	graphical_culture = mammalian_01
 	#r27_normal
 	move_pop_sound_effect = "moving_pop_confirmation"
 

@@ -3,7 +3,7 @@
 	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
 
 entity = {
-	name = "portrait_holofrixit_drone_01_entity"
+	name = "portrait_holofrixit_drone_01_entity_ext"
 	pdxmesh = "portrait_holofrixit_drone_01_mesh_ext"
 
 	default_state = "idle"

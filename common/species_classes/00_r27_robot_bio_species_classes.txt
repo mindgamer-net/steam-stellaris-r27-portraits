@@ -12,6 +12,10 @@ R27_robot_bio_class = {
 		"sil_humansynth"
 		"sil_synth_cat"
 		"sil_reptiliansynth"
+		"sil_aviansynth"
+		"sil_molluscoidsynth"
+		"sil_fungoidsynth"
+		"sil_plantoidsynth"
 		"sil_anthroid"
 		"sil_arthropoidsynth"
 		"sil_holofrixigram"
@@ -26,6 +30,10 @@ R27_robot_bio_class = {
 		"sil_humansynth"
 		"sil_synth_cat"
 		"sil_reptiliansynth"
+		"sil_aviansynth"
+		"sil_molluscoidsynth"
+		"sil_fungoidsynth"
+		"sil_plantoidsynth"
 		"sil_anthroid"
 		"sil_arthropoidsynth"
 		"sil_holofrixigram"
@@ -35,8 +43,7 @@ R27_robot_bio_class = {
 	}
 
 	randomized = yes
-	graphical_culture = humanoid_01
-	#r27_robot
+	graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	resources = {}

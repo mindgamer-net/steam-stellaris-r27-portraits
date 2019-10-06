@@ -56,7 +56,7 @@ objectTypes = {
 		name = "portrait_holofrixit_01_background_01_mesh"
 				file = "gfx/models/portraits/r27/oth_holofrixit/holofrixit_male_01.mesh"
 		# file = "gfx/models/portraits/extradimensional/extradimensional_01_background_01.mesh"
-		animation = { id = "idle"	type = "extradimensional_01_background_01_happy_animation" }
+		animation = { id = "idle"	type = "human_male_05_happy_animation" }
 		scale = 1.0
 	}
 

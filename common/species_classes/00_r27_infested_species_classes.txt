@@ -5,43 +5,27 @@
 # can specify randomized=no to filter specified class from randomization.
 #	playable = trigger, default is yes, to specify if portraits are playable
 
-R27_robot_class = {
-	archetype = MACHINE
-	playable = { host_has_dlc = "Synthetic Dawn Story Pack" }
-	robotic = yes
-	gender = no
-	use_climate_preference = no
+R27_infested_class = {
+	archetype = BIOLOGICAL
 
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
-		"sil_humroid"
-		"sil_humansynth"
-		"sil_synth_cat"
-		"sil_reptiliansynth"
-		"sil_anthroid"
-		"sil_arthropoidsynth"
-		"sil_holofrixigram"
-		"sil_humaicon"
-		"sil_syntherminator"
-		"me_geth"
+		"inf_palid"
+		"oth_horrorworm"
+		"oth_xeno"
+		"inf_fungoid"
 	}
 
 	# These should not be used for randomly generated species
 	non_randomized_portraits = {
-		"sil_humroid"
-		"sil_humansynth"
-		"sil_synth_cat"
-		"sil_reptiliansynth"
-		"sil_anthroid"
-		"sil_arthropoidsynth"
-		"sil_holofrixigram"
-		"sil_humaicon"
-		"sil_syntherminator"
-		"me_geth"
+		"inf_palid"
+		"oth_horrorworm"
+		"oth_xeno"
+		"inf_fungoid"
 	}
 
 	randomized = yes
-	graphical_culture = humanoid_01
-	#r27_robot
+	graphical_culture = mammalian_01
+	#r27_infested
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	resources = {}

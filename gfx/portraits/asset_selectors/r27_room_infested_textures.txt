@@ -7,9 +7,4 @@ room_selector = {
 	game_setup = {
 		"r27_infested_room" =				{ }
 	}
-
-	#leader scope
-	ruler = {
-		"r27_infested_room" =				{ exists = owner owner = { has_trait = trait_infested } }
-	}
 }

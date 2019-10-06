@@ -36,8 +36,4 @@ room_selector = {
 		"div_xenomorph2_room" = {}
 	}
 
-	#leader scope
-	ruler = {
-		"div_ethic_dark_side_room" = { exists = owner owner = { has_ethic = ethic_dark_side } }
-	}
 }

@@ -50,7 +50,7 @@ divsynths_mamm_male_clothes_01 = {
 	}
 }
 divsynths_mamm_female_clothes_01 = {
-	default = "gfx/models/portraits/r27/sil_divsynths/divsynths_mammalian_female_massive_outfit_ruler.dds"
+	default = "gfx/models/portraits/r27/sil_divsynths/divsynths_mammalian_massive_outfit_ruler.dds"
 
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
 		default = "gfx/models/portraits/r27/sil_divsynths/divsynths_mammalian_female_massive_outfit_ruler.dds"
@@ -88,7 +88,7 @@ divsynths_mamm_female_clothes_01 = {
 
 	#leader scope
 	ruler = { #for rulers
-		default = "gfx/models/portraits/r27/sil_divsynths/divsynths_female_mammalian_massive_outfit_ruler.dds"
+		default = "gfx/models/portraits/r27/sil_divsynths/divsynths_mammalian_massive_outfit_ruler.dds"
 
 		"gfx/models/portraits/r27/sil_divsynths/divsynths_mammalian_female_massive_outfit_ruler.dds" = { owner = { has_generic_government = yes } }
 		"gfx/models/portraits/r27/sil_divsynths/divsynths_mammalian_female_massive_outfit_admiral.dds" = { owner = { has_militarist_government = yes } }
