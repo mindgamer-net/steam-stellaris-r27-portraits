@@ -10,7 +10,7 @@ Rather the credit goes to the people listed below. Give their original mods a tr
 
 | Source mod    | Author | Class name inside mod   |
 | ------------- |--------|:-----------------------:|
-| [Animated&nbsp;Synthetics&nbsp;Portraits&nbsp;-&nbsp;Expanded](http://steamcommunity.com/sharedfiles/filedetails/?id=933075365)  | silfae | `sil_humroid`,  `sil_humansynth`, `sil_synth_cat`, `sil_reptiliansynth`, `sil_anthroid`, `sil_arthropoidsynth`, `sil_holofrixigram`, `sil_humaicon`, `sil_syntherminator` |
+| [Animated&nbsp;Synthetics&nbsp;Portraits&nbsp;-&nbsp;Expanded](http://steamcommunity.com/sharedfiles/filedetails/?id=933075365)  | silfae | `sil_humroid`,  `sil_humansynth`, `sil_synth_cat`, `sil_reptiliansynth`, `sil_aviansynth`, `sil_molluscoidsynth`, `sil_fungoidsynth`, `sil_plantoidsynth`, `sil_anthroid`, `sil_arthropoidsynth`, `sil_holofrixigram`, `sil_humaicon`, `sil_syntherminator` (... and `*_machine` variants) |
 | [Xeno&nbsp;Biodiversity](https://steamcommunity.com/sharedfiles/filedetails/?id=1353289123) | Ginufe |  `gin_snorter`, `gin_lurker`, `gin_glower`, `gin_clacker`, `gin_arachna` |
 | [Glub&nbsp;Glub&nbsp;-&nbsp;Fishbowl&nbsp;Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=1153460015) | Tucker&nbsp;Carlson (Alex) | `oth_glub` |
 | [Animated Silicoid Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=1160316076) | silfae | `oth_silicoid_b_01`, `oth_silicoid_02`, `oth_silicoid_04` |
@@ -32,3 +32,7 @@ The mod also adds a bunch of room backgrounds. I tried to limit myself to the on
 
 - [Infested Room & City Set (by The Supreme Brain)](http://steamcommunity.com/sharedfiles/filedetails/?id=1160405318)
 - [Diverse Rooms (by LastLeviathan)](http://steamcommunity.com/sharedfiles/filedetails/?id=902204956)
+
+Thanks:
+- [zokradonh](https://github.com/zokradonh) for his contributions 
+- Everyone else giving feedback in Steam Workshop pages
