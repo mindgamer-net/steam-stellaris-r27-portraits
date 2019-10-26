@@ -4,5 +4,5 @@ tags={
 	"Graphics"
 	"Species"
 }
-picture="r27_1.jpg"
-supported_version="2.3.*"
+picture="thumbnail.jpg"
+supported_version="2.5.*"
