@@ -5,12 +5,12 @@
 # can specify randomized=no to filter specified class from randomization.
 #	playable = trigger, default is yes, to specify if portraits are playable
 
-R27_silicoid_class = {
-	archetype = BIOLOGICAL
+R27_lithoid_class = {
+	archetype = LITHOID
 
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
 
-	playable = { has_lithoids = no }
+	playable = { has_lithoids = yes }
 
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
 		"oth_silicoid_b_01"
@@ -31,4 +31,6 @@ R27_silicoid_class = {
 
 	resources = {}
 
+
+	trait = "trait_lithoid"
 }
