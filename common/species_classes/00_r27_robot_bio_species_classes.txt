@@ -43,7 +43,7 @@ R27_robot_bio_class = {
 	}
 
 	randomized = yes
-	graphical_culture = mammalian_01
+	graphical_culture = mammalian_01		# mammalian_01's mapping will be overwritten by vanilla files due to 00_ filename prefix
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	resources = {}

@@ -26,6 +26,7 @@ R27_normal_class = {
 		"oth_zeriphen"
 		"oth_saurischian"
 		"oth_romaneagles"
+		"sil_octeelan"
 	}
 
 	# These should not be used for randomly generated species
@@ -48,11 +49,11 @@ R27_normal_class = {
 		"oth_zeriphen"
 		"oth_saurischian"
 		"oth_romaneagles"
+		"sil_octeelan"
 	}
 
 	randomized = yes
 	graphical_culture = mammalian_01
-	#r27_normal
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	resources = {}

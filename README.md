@@ -27,6 +27,7 @@ Rather the credit goes to the people listed below. Give their original mods a tr
 | [Animated Raptor Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=872596925) | silfae | `oth_saurischian` |
 | [Dimorphism&nbsp;-&nbsp;Fungoid&nbsp;Parasite&nbsp;Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=1172077353) | silfae | `inf_fungoid` |
 | [Animated Aquilese Portraits](http://steamcommunity.com/sharedfiles/filedetails/?id=910576007) | silfae | `oth_romaneagles` |
+| [Animated Octee-lan Portraits](https://steamcommunity.com/sharedfiles/filedetails/?id=929140455) | silfae | `sil_octeelan` |
 
 The mod also adds a bunch of room backgrounds. I tried to limit myself to the ones that look like they can fit with the overall theme of the game and are not just pretty pictures. I also skipped any images that included items that should obviously be moving but infact are static due to the backdrop being only a picture. Content reused from:
 

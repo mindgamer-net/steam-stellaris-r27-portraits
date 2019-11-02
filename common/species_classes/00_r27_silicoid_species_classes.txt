@@ -23,7 +23,6 @@ R27_silicoid_class = {
 
 	randomized = yes
 	graphical_culture = mammalian_01
-	#r27_silicoid
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	resources = {}

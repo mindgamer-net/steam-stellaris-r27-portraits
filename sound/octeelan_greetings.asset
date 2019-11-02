@@ -1,0 +1,13 @@
+
+sound = 
+{
+	name = "octeelan_greetings_01"
+	file = "vo/phenotypes/octeelan_greetings_01.wav"
+}
+
+soundeffect = {
+	name = octeelan_greetings
+	sounds = {
+		sound = octeelan_greetings_01
+	}
+}

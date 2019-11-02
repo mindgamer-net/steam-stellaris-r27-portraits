@@ -11,6 +11,7 @@ R27_robot_class = {
 	robotic = yes
 	gender = no
 	use_climate_preference = no
+	portrait_modding = yes    # allow changing portrait by robomodding
 
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
 		"sil_humroid"
@@ -49,7 +50,7 @@ R27_robot_class = {
 
 	randomized = yes
 	graphical_culture = mammalian_01
-	move_pop_sound_effect = "moving_pop_confirmation"
+	move_pop_sound_effect = "robot_pops_move"
 
 	resources = {}
 
