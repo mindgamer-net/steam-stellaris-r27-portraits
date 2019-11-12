@@ -8,6 +8,8 @@
 R27_infested_class = {
 	archetype = BIOLOGICAL
 
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
 		"inf_palid"
 		"oth_horrorworm"

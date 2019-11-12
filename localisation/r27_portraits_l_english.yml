@@ -5,7 +5,8 @@
  ####################################
 
 R27_normal_class:0 "R27 Biological"
-R27_silicoid_class:0 "R27 Silicoid"
+R27_silicoid_class:0 "R27 Lithoid"
 R27_infested_class:0 "R27 Infested"
 R27_robot_class:0 "R27 Machine"
-R27_robot_bio_class:0 "R27 BioMachine"
+R27_robot_bio_class:0 "R27 BioFake"
+R27_lithoid_class:0 "R27 Lithoid"
