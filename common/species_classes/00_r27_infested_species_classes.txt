@@ -8,6 +8,8 @@
 R27_infested_class = {
 	archetype = BIOLOGICAL
 
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
 		"inf_palid"
 		"oth_horrorworm"
@@ -25,8 +27,7 @@ R27_infested_class = {
 
 	randomized = yes
 	graphical_culture = mammalian_01
-	#r27_infested
-	move_pop_sound_effect = "moving_pop_confirmation"
+	move_pop_sound_effect = "arthopoid_pops_move"
 
 	resources = {}
 

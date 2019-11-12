@@ -7,6 +7,9 @@
 
 R27_robot_bio_class = {
 	archetype = BIOLOGICAL
+
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
 		"sil_humroid"
 		"sil_humansynth"
@@ -22,6 +25,16 @@ R27_robot_bio_class = {
 		"sil_humaicon"
 		"sil_syntherminator"
 		"me_geth"
+	}
+
+	custom_portraits = {
+		randomized = { always = no }
+		playable = { has_lithoids = yes }
+		portraits = {
+			"oth_silicoid_b_01"
+			"oth_silicoid_02"
+			"oth_silicoid_04"
+		}
 	}
 
 	# These should not be used for randomly generated species
@@ -43,7 +56,7 @@ R27_robot_bio_class = {
 	}
 
 	randomized = yes
-	graphical_culture = mammalian_01
+	graphical_culture = mammalian_01		# mammalian_01's mapping will be overwritten by vanilla files due to 00_ filename prefix
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	resources = {}

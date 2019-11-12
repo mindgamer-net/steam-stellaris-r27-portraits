@@ -8,6 +8,10 @@
 R27_silicoid_class = {
 	archetype = BIOLOGICAL
 
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	playable = { has_lithoids = no }
+
 	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
 		"oth_silicoid_b_01"
 		"oth_silicoid_02"
@@ -23,7 +27,6 @@ R27_silicoid_class = {
 
 	randomized = yes
 	graphical_culture = mammalian_01
-	#r27_silicoid
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	resources = {}
