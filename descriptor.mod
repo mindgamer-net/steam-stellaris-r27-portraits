@@ -1,8 +1,8 @@
 ﻿name="R27 Animated Portraits"
-path="mod/r27_portraits"
+version="2.7.0"
 tags={
 	"Graphics"
 	"Species"
 }
-picture="thumbnail.jpg"
-supported_version="2.5.*"
+picture="thumbnail.png"
+supported_version="2.7.*"
