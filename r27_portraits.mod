@@ -6,3 +6,5 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="2.8.*"
+path="C:/Users/tarmo/Documents/Paradox Interactive/Stellaris/mod/r27_portraits"
+remote_file_id="1445328980"
