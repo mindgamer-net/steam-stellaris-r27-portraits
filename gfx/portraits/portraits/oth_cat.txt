@@ -13,7 +13,7 @@ portraits = {
 	mamfem14 = {
 		entity = "portrait_mammalian_female_14_entity"
 		clothes_selector = "mammalian_female_massive_clothes_14"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "mammalian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_cat/mammalian_female_massive_14_beige.dds"

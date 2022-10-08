@@ -12,7 +12,7 @@ portraits = {
 	protoss_male_01 	= {
 		entity = "protoss_male_01_entity"
 		clothes_selector = "protoss_male_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "reptilian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_protoss/protoss_male.dds"
@@ -28,7 +28,7 @@ portraits = {
 	protoss_female_01 	= {
 		entity = "protoss_female_01_entity"		
 		clothes_selector = "protoss_female_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "reptilian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_protoss/protoss_female.dds"

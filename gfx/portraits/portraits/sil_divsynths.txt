@@ -1,5 +1,5 @@
 portraits = {
-	sil_anthroid1 = {	entity = "portrait_arthropoid_11_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "arthropoid_01_greetings"
+	sil_anthroid1 = {	entity = "portrait_arthropoid_11_entity" clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "arthropoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_anthroid_body_01.dds"
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_anthroid_body_02.dds"
@@ -9,7 +9,7 @@ portraits = {
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_anthroid_body_06.dds" 
 		}
 	}
-	sil_humroid2 = {	entity = "portrait_divsynth_00_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "robot_human_greetings"
+	sil_humroid2 = {	entity = "portrait_divsynth_00_entity" clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "robot_human_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_01.dds"
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_02.dds"
@@ -19,29 +19,29 @@ portraits = {
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_06.dds"
 		}
 	}
-	sil_humaicon1 = {	entity = "portrait_divsynth_02_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "robot_human_greetings"
+	sil_humaicon1 = {	entity = "portrait_divsynth_02_entity"	clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "robot_human_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_20.dds"
 		}
 	}
-	sil_humansynth_male = {	entity = "portrait_divsynth_male_01_entity"	clothes_selector = "divsynths_male_clothes_01" hair_selector = "divsynths_male_01_hair" greeting_sound = "robot_human_greetings"
+	sil_humansynth_male = {	entity = "portrait_divsynth_male_01_entity"	clothes_selector = "divsynths_male_clothes_01" attachment_selector = "divsynths_male_01_hair" greeting_sound = "robot_human_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_10.dds"
 		}
 	}
-	sil_humansynth_female = {	entity = "portrait_divsynth_female_01_entity"	clothes_selector = "divsynths_female_clothes_01" hair_selector = "divsynths_female_01_hair" greeting_sound = "robot_human_greetings"
+	sil_humansynth_female = {	entity = "portrait_divsynth_female_01_entity"	clothes_selector = "divsynths_female_clothes_01" attachment_selector = "divsynths_female_01_hair" greeting_sound = "robot_human_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_10.dds"
 		}
 	}
 
 	########  MAMMAL SYNTHS #######
-	sil_synth_cat_male = {	entity = "portrait_synth_mammalian_male_14_entity" clothes_selector = "divsynths_mamm_male_clothes_01" hair_selector = "no_texture" greeting_sound = "robot_mammalian_greetings"
+	sil_synth_cat_male = {	entity = "portrait_synth_mammalian_male_14_entity" clothes_selector = "divsynths_mamm_male_clothes_01" attachment_selector = "no_texture" greeting_sound = "robot_mammalian_greetings"
 			character_textures = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_mam14.dds"
 				}
 	}
-	sil_synth_cat_female = {	entity = "portrait_synth_mammalian_female_14_entity" clothes_selector = "divsynths_mamm_female_clothes_01" hair_selector = "no_texture" greeting_sound = "robot_mammalian_greetings"
+	sil_synth_cat_female = {	entity = "portrait_synth_mammalian_female_14_entity" clothes_selector = "divsynths_mamm_female_clothes_01" attachment_selector = "no_texture" greeting_sound = "robot_mammalian_greetings"
 			character_textures = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_mam14.dds"
 				}
@@ -49,7 +49,7 @@ portraits = {
 
 	########  REPTILIAN SYNTHS #######
 
-	sil_reptiliansynth_male = {	entity = "portrait_synth_reptilian_male04_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"
+	sil_reptiliansynth_male = {	entity = "portrait_synth_reptilian_male04_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"
 		greeting_sound = "robot_reptilian_greetings"
 		character_textures = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_rept04.dds"
@@ -58,7 +58,7 @@ portraits = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_rept07.dds"
 		}
 	}
-	sil_reptiliansynth_female = {	entity = "portrait_synth_reptilian_female04_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"
+	sil_reptiliansynth_female = {	entity = "portrait_synth_reptilian_female04_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"
 		greeting_sound = "robot_reptilian_greetings"
 		character_textures = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_rept04.dds"
@@ -70,7 +70,7 @@ portraits = {
 
 	########  AVIAN SYNTHS ####### 
 
-	sil_synthmale_avi10 = {	entity = "portrait_avian_11_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_avian_greetings"
+	sil_synthmale_avi10 = {	entity = "portrait_avian_11_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "robot_avian_greetings"
 		character_textures = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_avi10.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_avi11.dds"
@@ -85,7 +85,7 @@ portraits = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_avi20.dds"
 			}
 	}
-	sil_synthfemale_avi10 = {	entity = "portrait_avian_11_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_avian_greetings"
+	sil_synthfemale_avi10 = {	entity = "portrait_avian_11_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "robot_avian_greetings"
 		character_textures = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_avi10.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_avi11.dds"
@@ -100,7 +100,7 @@ portraits = {
 	}
 
 	########  ARTHROPOID SYNTHS #######
-	sil_arthropoidsynth_male = {	entity = "portrait_synth_arthropoid_male06_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"
+	sil_arthropoidsynth_male = {	entity = "portrait_synth_arthropoid_male06_entity" clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "robot_human_greetings"
 			character_textures = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_arth06.dds"
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_arth07.dds"
@@ -112,7 +112,7 @@ portraits = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_male_body_arth13.dds"
 			}
 	}
-	sil_arthropoidsynth_female = {	entity = "portrait_synth_arthropoid_female06_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"
+	sil_arthropoidsynth_female = {	entity = "portrait_synth_arthropoid_female06_entity" clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "robot_human_greetings"
 			character_textures = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_arth06.dds"
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_female_body_arth07.dds"
@@ -122,7 +122,7 @@ portraits = {
 	}
 
 	########  MOLLUSCOID SYNTHS ####### 
-	sil_synth_mol12 = {	entity = "portrait_synth_molluscoid12_entity" clothes_selector = "divsynths_moll_clothes_01"	hair_selector = "no_texture"	greeting_sound = "robot_molluscoid_greetings"
+	sil_synth_mol12 = {	entity = "portrait_synth_molluscoid12_entity" clothes_selector = "divsynths_moll_clothes_01"	attachment_selector = "no_texture"	greeting_sound = "robot_molluscoid_greetings"
 			character_textures = {
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_body_mol12.dds"
 					"gfx/models/portraits/r27/sil_divsynths/divsynths_body_mol13.dds"
@@ -131,7 +131,7 @@ portraits = {
 	}
 
 	########  FUNGOID SYNTHS ####### 
-	sil_synth_fun8 = {	entity = "portrait_synth_fungoid08_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_fungoid_greetings"
+	sil_synth_fun8 = {	entity = "portrait_synth_fungoid08_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "robot_fungoid_greetings"
 		character_textures = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_body_fun08.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_body_fun09.dds"
@@ -140,7 +140,7 @@ portraits = {
 	}
 
 	########  PLANTOID SYNTHS ####### 
-	sil_synth_pla7 = {	entity = "portrait_synth_plantoid07_entity" clothes_selector = "plantoid_normal_clothes_01" hair_selector = "no_texture"	greeting_sound = "robot_plantoid_greetings"
+	sil_synth_pla7 = {	entity = "portrait_synth_plantoid07_entity" clothes_selector = "plantoid_normal_clothes_01" attachment_selector = "no_texture"	greeting_sound = "robot_plantoid_greetings"
 		character_textures = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_body_pla07.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_body_pla08.dds"
@@ -149,14 +149,14 @@ portraits = {
 	}
 
 	########  HOLOFRIXIGRAM SYNTHS #######
-	sil_holofrixigram1 = {	entity = "portrait_holofrixit_drone_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "robot_molluscoid_greetings"
+	sil_holofrixigram1 = {	entity = "portrait_holofrixit_drone_01_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "robot_molluscoid_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/sil_divsynths/divsynths_holofrixit_gram_body_03.dds"
 		}
 	}
 
 	########  TERMINATOR SYNTHS #######
-	sil_syntherminator_male = {	entity = "portrait_synth_terminator_male_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "robot_human_greetings"
+	sil_syntherminator_male = {	entity = "portrait_synth_terminator_male_entity"	clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "robot_human_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/sil_divsynths/terminator_male_body_01.dds"
 			"gfx/models/portraits/r27/sil_divsynths/terminator_male_body_02.dds"
@@ -164,7 +164,7 @@ portraits = {
 			"gfx/models/portraits/r27/sil_divsynths/terminator_male_body_04.dds"
 		}
 	}
-	sil_syntherminator_female = {	entity = "portrait_synth_terminator_female_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "robot_human_greetings"
+	sil_syntherminator_female = {	entity = "portrait_synth_terminator_female_entity"	clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "robot_human_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/sil_divsynths/terminator_female_body_01.dds"
 			"gfx/models/portraits/r27/sil_divsynths/terminator_female_body_02.dds"

@@ -2,7 +2,7 @@ portraits = {
 	oth_romaneagles_female_01 = {
 		entity = "portrait_romaneagles_female_01_entity"
 		clothes_selector = "oth_romaneagles_female_clothes_01"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "avian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_a_body_01.dds"
@@ -15,7 +15,7 @@ portraits = {
 	oth_romaneagles_female_02 = {
 		entity = "portrait_romaneagles_female_01_entity"
 		clothes_selector = "oth_romaneagles_female_clothes_01"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "avian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_female_b_body_01.dds"
@@ -28,7 +28,7 @@ portraits = {
 	oth_romaneagles_male_01 = {
 		entity = "portrait_romaneagles_male_01_entity"
 		clothes_selector = "oth_romaneagles_male_clothes_01"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "avian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_a_body_01.dds"
@@ -41,7 +41,7 @@ portraits = {
 	oth_romaneagles_male_02 = {
 		entity = "portrait_romaneagles_male_01_entity"
 		clothes_selector = "oth_romaneagles_male_clothes_01"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "avian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_romaneagles/romaneagles_male_b_body_01.dds"

@@ -13,7 +13,7 @@ portraits = {
   gin_lurker = {
     entity = "humanoid_04_male_01_entity"
     clothes_selector = "humanoid_03_male_clothes_01"
-    hair_selector = "no_texture"
+    attachment_selector = "no_texture"
     greeting_sound = "reptilian_01_greetings"
     character_textures = {
       "gfx/models/portraits/r27/gin_lurker/lurker.dds"

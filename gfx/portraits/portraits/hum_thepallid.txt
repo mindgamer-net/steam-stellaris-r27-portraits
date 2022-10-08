@@ -13,7 +13,7 @@ portraits = {
 	inf_palid_female_01 = {
 		entity = "portrait_human_dark_female_01_entity"
 		clothes_selector = "inf_palid_female_clothes_01"
-		hair_selector = "inf_palid_female_hair_01"
+		attachment_selector = "inf_palid_female_hair_01"
 		greeting_sound = "human_female_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/r27/inf_palid/human_dark_female_body_01a.dds"
@@ -24,7 +24,7 @@ portraits = {
 	inf_palid_female_02 = {
 		entity = "portrait_human_dark_female_02_entity"
 		clothes_selector = "inf_palid_female_clothes_01"
-		hair_selector = "inf_palid_female_hair_01"
+		attachment_selector = "inf_palid_female_hair_01"
 		greeting_sound = "human_female_greetings_01"
 		character_textures = {
 			"gfx/models/portraits/r27/inf_palid/human_dark_female_body_02a.dds"
@@ -35,7 +35,7 @@ portraits = {
 	inf_palid_female_03 = {
 		entity = "portrait_human_dark_female_02_entity"
 		clothes_selector = "inf_palid_female_clothes_01"
-		hair_selector = "inf_palid_female_hair_01"
+		attachment_selector = "inf_palid_female_hair_01"
 		greeting_sound = "human_female_greetings_01"
 		character_textures = {
 			"gfx/models/portraits/r27/inf_palid/human_dark_female_body_03a.dds"
@@ -46,7 +46,7 @@ portraits = {
 	inf_palid_male_01 = {
 		entity = "portrait_human_dark_male_01_entity"
 		clothes_selector = "inf_palid_male_clothes_01"
-		hair_selector = "inf_palid_male_hair_01"
+		attachment_selector = "inf_palid_male_hair_01"
 		greeting_sound = "human_male_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/r27/inf_palid/human_dark_male_body_01a.dds"
@@ -57,7 +57,7 @@ portraits = {
 	inf_palid_male_02 = {
 		entity = "portrait_human_dark_male_02_entity"
 		clothes_selector = "inf_palid_male_clothes_01"
-		hair_selector = "inf_palid_male_hair_01"
+		attachment_selector = "inf_palid_male_hair_01"
 		greeting_sound = "human_male_greetings_01"
 		character_textures = {
 			"gfx/models/portraits/r27/inf_palid/human_dark_male_body_02a.dds"
@@ -68,7 +68,7 @@ portraits = {
 	inf_palid_male_03 = {
 		entity = "portrait_human_dark_male_02_entity"
 		clothes_selector = "inf_palid_male_clothes_01"
-		hair_selector = "inf_palid_male_hair_01"
+		attachment_selector = "inf_palid_male_hair_01"
 		greeting_sound = "human_male_greetings_01"
 		character_textures = {
 			"gfx/models/portraits/r27/inf_palid/human_dark_male_body_03a.dds"

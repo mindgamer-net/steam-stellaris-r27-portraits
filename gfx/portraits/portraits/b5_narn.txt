@@ -13,7 +13,7 @@ portraits = {
 	b5_narn_female_01 	= {
 		entity = "narn_female_01_entity"
 		clothes_selector = "b5_narn_female_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "human_female_greetings_02"
 		character_textures = {
 			"gfx/models/portraits/r27/b5_narn/narn_female_body_03.dds"
@@ -23,7 +23,7 @@ portraits = {
 	b5_narn_male_01 	= {
 		entity = "narn_male_01_entity"
 		clothes_selector = "b5_narn_male_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "human_male_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/r27/b5_narn/narn_male_body_03.dds"

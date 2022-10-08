@@ -13,7 +13,7 @@ portraits = {
 	xenomorph_drone = {
 		entity = "xeno_portrait_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "plantoid_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_xeno/xenomorph_portrait.dds"

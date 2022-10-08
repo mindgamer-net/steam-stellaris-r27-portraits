@@ -12,7 +12,7 @@ portraits = {
 	me_quarian = {
 		entity = "portrait_quarian_female_01_entity"
 		clothes_selector = "quarian_female_clothes_01"
-		hair_selector = "quarian_female_hair_01"
+		attachment_selector = "quarian_female_hair_01"
 		greeting_sound = "human_female_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/r27/me_quarian/quarian_female_body_01.dds"
@@ -21,7 +21,7 @@ portraits = {
 #	quarian_male_01 = {
 #		entity = "portrait_quarian_male_01_entity"
 #		clothes_selector = "quarian_male_clothes_01"
-#		hair_selector = "quarian_male_hair_01"
+#		attachment_selector = "quarian_male_hair_01"
 #		greeting_sound = "human_male_greetings_03"
 #		character_textures = {
 #			"gfx/models/portraits/r27/me_quarian/quarian_male_body_01.dds"
@@ -31,7 +31,7 @@ portraits = {
 #	quarian_male_02 = {
 #		entity = "portrait_quarian_male_01_entity"
 #		clothes_selector = "quarian_male_clothes_02"
-#		hair_selector = "quarian_male_hair_02"
+#		attachment_selector = "quarian_male_hair_02"
 #		greeting_sound = "human_male_greetings_03"
 #		character_textures = {
 #			"gfx/models/portraits/r27/me_quarian/quarian_male_body_01.dds"
@@ -41,7 +41,7 @@ portraits = {
 #	quarian_male_03 = {
 #		entity = "portrait_quarian_male_01_entity"
 #		clothes_selector = "quarian_male_clothes_03"
-#		hair_selector = "quarian_male_hair_03"
+#		attachment_selector = "quarian_male_hair_03"
 #		greeting_sound = "human_male_greetings_03"
 #		character_textures = {
 #			"gfx/models/portraits/r27/me_quarian/quarian_male_body_01.dds"

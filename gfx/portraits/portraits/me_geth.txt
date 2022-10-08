@@ -16,7 +16,7 @@ portraits = {
 	me_geth_portrait = {
 		entity = "portrait_geth_entity"
 		clothes_selector = "general_no_hair"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "arthropoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/me_geth/geth_black.dds"

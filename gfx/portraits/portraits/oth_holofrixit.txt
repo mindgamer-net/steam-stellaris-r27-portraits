@@ -13,7 +13,7 @@ portraits = {
 	holofrixit_drone_01 = {
 		entity = "portrait_holofrixit_drone_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "molluscoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_drone_body_01.dds"
@@ -23,7 +23,7 @@ portraits = {
 	holofrixit_drone_02 = {
 		entity = "portrait_holofrixit_drone_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "molluscoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_drone_body_01.dds"
@@ -33,7 +33,7 @@ portraits = {
 	holofrixit_warrior_01 = {
 		entity = "portrait_holofrixit_warrior_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "molluscoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_warrior_body_01.dds"
@@ -43,7 +43,7 @@ portraits = {
 	holofrixit_warrior_02 = {
 		entity = "portrait_holofrixit_warrior_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "molluscoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_warrior_body_02.dds"
@@ -53,7 +53,7 @@ portraits = {
 	holofrixit_scientist_01 = {
 		entity = "portrait_holofrixit_drone_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "molluscoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_scientist_body_01.dds"
@@ -63,7 +63,7 @@ portraits = {
 	holofrixit_gram_01 = {
 		entity = "portrait_holofrixit_drone_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "molluscoid_01_greetings" 
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_gram_body_01.dds"
@@ -73,7 +73,7 @@ portraits = {
 	holofrixit_gram_02 = {
 		entity = "portrait_holofrixit_drone_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "molluscoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_gram_body_02.dds"
@@ -83,7 +83,7 @@ portraits = {
 	holofrixit_gram_03 = {
 		entity = "portrait_holofrixit_drone_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "molluscoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_gram_body_03.dds"
@@ -93,7 +93,7 @@ portraits = {
 	holofrixit_male_01 = {
 		entity = "portrait_holofrixit_male_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "molluscoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_male_body_01.dds"
@@ -116,7 +116,7 @@ portraits = {
 	holofrixit_female_01 = {
 		entity = "portrait_holofrixit_female_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "human_female_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_female_body_01.dds"
@@ -139,7 +139,7 @@ portraits = {
 	holofrixit_male_02 = {
 		entity = "portrait_holofrixit_male_02_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "human_male_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_male_body_01.dds"
@@ -155,7 +155,7 @@ portraits = {
 	holofrixit_female_02 = {
 		entity = "portrait_holofrixit_female_02_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
+		attachment_selector = "no_texture"
 		greeting_sound = "human_female_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_holofrixit/holofrixit_female_body_01.dds"

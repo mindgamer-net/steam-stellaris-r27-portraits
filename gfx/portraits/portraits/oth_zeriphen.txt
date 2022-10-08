@@ -13,7 +13,7 @@ portraits = {
 	zeriphen_female_01 = {
 		entity = "portrait_zeriphen_female_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "zeriphen_female_a_01_hair"
+		attachment_selector = "zeriphen_female_a_01_hair"
 		greeting_sound = "avian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_zeriphen/zeriphen_female_a_body_01.dds"
@@ -25,7 +25,7 @@ portraits = {
 	zeriphen_male_01 = {
 		entity = "portrait_zeriphen_male_01_entity"
 		clothes_selector = "no_texture"
-		hair_selector = "zeriphen_male_a_01_hair"
+		attachment_selector = "zeriphen_male_a_01_hair"
 		greeting_sound = "avian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/r27/oth_zeriphen/zeriphen_male_a_body_01.dds"

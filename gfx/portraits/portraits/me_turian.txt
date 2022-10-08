@@ -15,7 +15,7 @@ portraits = {
 	turian_female_1 = {
 		entity = "portrait_turian_01_entity"
 		clothes_selector = "turian_female_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "human_female_greetings_02"
 		character_textures = {
 			"gfx/models/portraits/r27/me_turian/turian_female_body_1.dds"
@@ -29,7 +29,7 @@ portraits = {
 	turian_female_2 = {
 		entity = "portrait_turian_01_entity"
 		clothes_selector = "turian_female_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "human_female_greetings_02"
 		character_textures = {
 			"gfx/models/portraits/r27/me_turian/turian_female_body_2.dds"
@@ -43,7 +43,7 @@ portraits = {
 	turian_female_3 = {
 		entity = "portrait_turian_01_entity"
 		clothes_selector = "turian_female_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "human_female_greetings_02"
 		character_textures = {
 			"gfx/models/portraits/r27/me_turian/turian_female_body_3.dds"
@@ -57,7 +57,7 @@ portraits = {
 	turian_female_4 = {
 		entity = "portrait_turian_01_entity"
 		clothes_selector = "turian_female_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "human_female_greetings_02"
 		character_textures = {
 			"gfx/models/portraits/r27/me_turian/turian_female_body_4.dds"
@@ -70,7 +70,7 @@ portraits = {
 	turian_2 = {
 		entity = "portrait_turian_01_entity"
 		clothes_selector = "turian_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "human_male_greetings_02"
 		character_textures = {
 			"gfx/models/portraits/r27/me_turian/turian_body_2.dds"
@@ -83,7 +83,7 @@ portraits = {
 	turian_3 = {
 		entity = "portrait_turian_01_entity"
 		clothes_selector = "turian_clothes_01"
-		hair_selector = "general_no_hair"
+		attachment_selector = "general_no_hair"
 		greeting_sound = "human_male_greetings_02"
 		character_textures = {
 			"gfx/models/portraits/r27/me_turian/turian_body_3.dds"

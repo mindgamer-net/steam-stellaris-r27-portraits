@@ -1,5 +1,5 @@
 portraits = {
-	sil_octeelan_female_01 = {	entity = "portrait_octeelan_01_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "octeelan_greetings"	
+	sil_octeelan_female_01 = {	entity = "portrait_octeelan_01_entity"	clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "octeelan_greetings"	
 		character_textures = { 
 			"gfx/models/portraits/r27/sil_octeelan/octeelan_female_body_01.dds" 
 			"gfx/models/portraits/r27/sil_octeelan/octeelan_female_body_02.dds" 
