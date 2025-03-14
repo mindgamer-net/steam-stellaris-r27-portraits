@@ -1,0 +1,58 @@
+# Portrait sets associated with species classes.
+# Portrait sets are grouped into portrait categories to be shown on empire editor. Check out portrait_categories database.
+# portraits = {}									List of portraits which are available for the species class without any conditions
+# conditional_portraits = {}
+#	randomizable = yes/no/trigger (default: yes)	Condition that specifies if the portraits in the list below can be used with species which design is randomly generated
+#	playable = yes/no/trigger (default: yes)		Condition that specifies if the portraits in the list below are available in empire design view
+#	portraits = {}									List of portraits which can be used by species of corresponding class depending on the
+# non_randomized_portraits							List of portraits which are not available for empires whose design was randomly generated
+# non_pre_ftl_portraits								List of portraits which are not available for pre-ftl empires
+# uplifted_portraits = {}							List of portraits which will be used by species of corresponding class after uplifting
+#													(the number of uplifted portraits must be the same as the number of portraits in 'portraits' list).
+
+R27_biofake_set = {
+	species_class = R27_normal_genn_class
+    
+    portraits = {
+		# Lithoids
+		"oth_silicoid_01"
+		"oth_silicoid_02"
+		# Machines
+		"sil_humroid"
+		"sil_humansynth"
+		"sil_synth_cat"
+		"sil_reptiliansynth_machine"
+		"sil_aviansynth_machine"
+		"sil_molluscoidsynth"
+		"sil_fungoidsynth"
+		"sil_plantoidsynth"
+		"sil_anthroid"
+		"sil_arthropoidsynth_machine"
+		"sil_holofrixigram"
+		"sil_humaicon"
+		"sil_syntherminator_machine"
+		"me_geth"
+    }
+
+    non_randomized_portraits = {
+		# Lithoids
+		"oth_silicoid_01"
+		"oth_silicoid_02"
+		# Machines
+		"sil_humroid"
+		"sil_humansynth"
+		"sil_synth_cat"
+		"sil_reptiliansynth_machine"
+		"sil_aviansynth_machine"
+		"sil_molluscoidsynth"
+		"sil_fungoidsynth"
+		"sil_plantoidsynth"
+		"sil_anthroid"
+		"sil_arthropoidsynth_machine"
+		"sil_holofrixigram"
+		"sil_humaicon"
+		"sil_syntherminator_machine"
+		"me_geth"
+    }
+	
+}

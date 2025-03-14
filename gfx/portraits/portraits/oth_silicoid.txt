@@ -1,11 +1,11 @@
 portraits = {
-	silicoid_b_01 = {	entity = "portrait_silicoid_male_01_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "plantoid_greetings"
+	silicoid_01 = {	entity = "portrait_silicoid_01_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "plantoid_greetings"
 		character_textures = {
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_02.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_03.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_04.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_05.dds"
-			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_male_body_06.dds"
+			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_body_02.dds"
+			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_body_03.dds"
+			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_body_04.dds"
+			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_body_05.dds"
+			"gfx/models/portraits/r27/oth_silicoid/silicoid_01_body_06.dds"
 		}
 	}
 	silicoid_02 = {	entity = "portrait_silicoid_02_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "plantoid_greetings"
@@ -146,12 +146,12 @@ portrait_groups = {
 		}
 	}
 
-	oth_silicoid_b_01 = {
-		default = silicoid_b_01
+	oth_silicoid_01 = {
+		default = silicoid_01
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				portraits = {
-					silicoid_b_01
+					silicoid_01
 				}
 			}
 
@@ -161,7 +161,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					silicoid_b_01
+					silicoid_01
 				}
 			}
 		}
@@ -170,7 +170,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					silicoid_b_01
+					silicoid_01
 				}
 			}
 		}
@@ -179,7 +179,7 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					silicoid_b_01
+					silicoid_01
 				}
 			}
 		}
@@ -189,7 +189,7 @@ portrait_groups = {
 		ruler = {
 			add = {
 				portraits = {
-					silicoid_b_01
+					silicoid_01
 				}
 			}
 		}

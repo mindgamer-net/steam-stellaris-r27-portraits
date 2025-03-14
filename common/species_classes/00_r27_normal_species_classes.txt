@@ -1,61 +1,38 @@
-# Number of entries controls amount to choose from in designer  I.E.   "mol1" "mol2" "mol3" "mol4"
-# graphical_culture is connected to the looks used for ships and cities, see "common/graphical_culture/"
-# Portraits here are one you can choose from in the character creator. For prescripted races they are grabbed straight from the .gfx file.
-# can specify playable=no to disable people from picking specified class.
-# can specify randomized=no to filter specified class from randomization.
-#	playable = trigger, default is yes, to specify if portraits are playable
+# The Species Classes defined here are generally not available to the character creator, but will instead appear in AI empires across the galaxy.
+# There is also portrait_sets database that contains sets of portraits associated with species classes.
+# 'graphical_culture' is connected to the looks used for ships and cities; see "common/graphical_culture/".
+# playable = yes/no/trigger (default: yes)		if this species class can is playable
+# randomized = yes/no/trigger (default: yes)	if this species class is randomized
+# species_trait_points							base number of species trait points available for this species class
+# species_max_traits							maximum number of traits that species of this class can have (doesn't count those with cost == 0)
+# possible										ethics/government requirements; see common/governments/readme_requirements.txt
+# gender = yes/no (default: yes)				whether the species has a gender
+# portrait_modding yes/no (default: yes)		whether the portrait can be modified with e.g. genemodding or robomodding
+# random_weight									increases/reduces the chance of spawning this species class
+# ethics_to_prefer								list of ethics certain species class will preffer over others
+# preferred_ethics_weight						increases/reduces the chance of this species class choosing one of the preferred ethics
 
-R27_normal_class = {
+R27_normal_genn_class = {
 	archetype = BIOLOGICAL
 
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
 
-	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
-		"oth_cat"
-		"mam_hyena"
-		"moo_psi"
-		"b5_narn"
-		"me_quarian"
-		"me_prothean"
-		"me_turian"
-		"gin_snorter"
-		"gin_lurker"
-		"gin_glower"
-		"gin_clacker"
-		"gin_arachna"
-		"oth_glub"
-		"oth_protoss"
-		"oth_holofrixit"
-		"oth_zeriphen"
-		"oth_saurischian"
-		"oth_romaneagles"
-		"sil_octeelan"
-	}
+	randomized = yes
+	gender = no
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
 
-	# These should not be used for randomly generated species
-	non_randomized_portraits = {
-		"oth_cat"
-		"mam_hyena"
-		"moo_psi"
-		"b5_narn"
-		"me_quarian"
-		"me_prothean"
-		"me_turian"
-		"gin_snorter"
-		"gin_lurker"
-		"gin_glower"
-		"gin_clacker"
-		"gin_arachna"
-		"oth_glub"
-		"oth_protoss"
-		"oth_holofrixit"
-		"oth_zeriphen"
-		"oth_saurischian"
-		"oth_romaneagles"
-		"sil_octeelan"
-	}
+	resources = {}
+
+}
+
+R27_normal_geny_class = {
+	archetype = BIOLOGICAL
+
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
 
 	randomized = yes
+	gender = yes
 	graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 

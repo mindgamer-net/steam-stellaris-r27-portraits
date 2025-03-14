@@ -1,0 +1,12 @@
+# Categories of portrait sets used in empire design view.
+# Portrait sets are listed in portrait_sets database.
+
+lithoids = {
+
+    name = LITHOID
+
+    sets = { 
+		R27_lithoid_set
+	}
+
+}

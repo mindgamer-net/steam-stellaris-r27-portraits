@@ -195,7 +195,6 @@ divsynths_male_01_hair = {
 		random = {
 			list = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_01.dds"
-				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_02.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_03.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_04.dds"
 			}
@@ -212,7 +211,6 @@ divsynths_male_01_hair = {
 			trigger = { leader_class = general }
 			list = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_01.dds"
-				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_02.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_03.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_04.dds"
 			}
@@ -222,7 +220,6 @@ divsynths_male_01_hair = {
 			trigger = { leader_class = admiral }
 			list = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_01.dds"
-				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_02.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_03.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_04.dds"
 			}
@@ -232,7 +229,6 @@ divsynths_male_01_hair = {
 			trigger = { leader_class = scientist }
 			list = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_01.dds"
-				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_02.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_03.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_04.dds"
 			}
@@ -242,7 +238,6 @@ divsynths_male_01_hair = {
 			trigger = { leader_class = governor }
 			list = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_01.dds"
-				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_02.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_03.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_04.dds"
 			}
@@ -259,7 +254,6 @@ divsynths_male_01_hair = {
 
 			list = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_01.dds"
-				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_02.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_03.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_04.dds"
 			}
@@ -272,7 +266,6 @@ divsynths_male_01_hair = {
 
 			list = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_01.dds"
-				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_02.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_03.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_04.dds"
 			}
@@ -292,7 +285,6 @@ divsynths_male_01_hair = {
 
 			list = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_01.dds"
-				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_02.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_03.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_male_hair_blonde_style_04.dds"
 			}

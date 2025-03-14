@@ -1,0 +1,63 @@
+# Portrait sets associated with species classes.
+# Portrait sets are grouped into portrait categories to be shown on empire editor. Check out portrait_categories database.
+# portraits = {}									List of portraits which are available for the species class without any conditions
+# conditional_portraits = {}
+#	randomizable = yes/no/trigger (default: yes)	Condition that specifies if the portraits in the list below can be used with species which design is randomly generated
+#	playable = yes/no/trigger (default: yes)		Condition that specifies if the portraits in the list below are available in empire design view
+#	portraits = {}									List of portraits which can be used by species of corresponding class depending on the
+# non_randomized_portraits							List of portraits which are not available for empires whose design was randomly generated
+# non_pre_ftl_portraits								List of portraits which are not available for pre-ftl empires
+# uplifted_portraits = {}							List of portraits which will be used by species of corresponding class after uplifting
+#													(the number of uplifted portraits must be the same as the number of portraits in 'portraits' list).
+
+R27_biological_set = {
+	species_class = R27_normal_geny_class
+
+	portraits = {	#actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+		"oth_cat"
+		"mam_hyena"
+		"moo_psi"
+		"b5_narn"
+		"me_quarian"
+		"me_prothean"
+		"me_turian"
+		"gin_snorter"
+		"gin_lurker"
+		"gin_glower"
+		"gin_clacker"
+		"gin_arachna"
+		"oth_glub"
+		"oth_protoss"
+		"oth_holofrixit"
+		"oth_zeriphen"
+		"oth_saurischian"
+		"oth_romaneagles"
+		"sil_octeelan"
+		"oth_silicoid_04"
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"oth_cat"
+		"mam_hyena"
+		"moo_psi"
+		"b5_narn"
+		"me_quarian"
+		"me_prothean"
+		"me_turian"
+		"gin_snorter"
+		"gin_lurker"
+		"gin_glower"
+		"gin_clacker"
+		"gin_arachna"
+		"oth_glub"
+		"oth_protoss"
+		"oth_holofrixit"
+		"oth_zeriphen"
+		"oth_saurischian"
+		"oth_romaneagles"
+		"sil_octeelan"
+		"oth_silicoid_04"
+	}
+
+}

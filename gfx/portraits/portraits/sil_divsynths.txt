@@ -140,7 +140,7 @@ portraits = {
 	}
 
 	########  PLANTOID SYNTHS ####### 
-	sil_synth_pla7 = {	entity = "portrait_synth_plantoid07_entity" clothes_selector = "plantoid_normal_clothes_01" attachment_selector = "no_texture"	greeting_sound = "robot_plantoid_greetings"
+	sil_synth_pla7 = {	entity = "portrait_synth_plantoid07_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "robot_plantoid_greetings"
 		character_textures = {
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_body_pla07.dds"
 				"gfx/models/portraits/r27/sil_divsynths/divsynths_body_pla08.dds"

@@ -1,0 +1,12 @@
+# Categories of portrait sets used in empire design view.
+# Portrait sets are listed in portrait_sets database.
+
+R27_infested_category = {
+
+    name = "Infested"
+
+    sets = { 
+		R27_infested_set
+	}
+
+}
